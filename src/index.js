@@ -1,14 +1,44 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import { Outlet } from "react-router-dom";
+import NavBar from "./components/navbar";
+import HomePage from "./components/home";
+import Contact from "./components/contact";
+import AboutUs from "./components/aboutus";
+import WhyUs from "./components/whyus";
+import Partners from "./components/partners";
+import WhySiphonic from "./components/whysiphonic";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />}>
+          <Route index element={<HomePage />} />
+          <Route path="hakkimizda" element={<AboutUs />} />
+          <Route path="nedensifonik" element={<WhySiphonic />} />
+          <Route path="nedenbiz" element={<WhyUs />} />
+          <Route path="partnerlerimiz" element={<Partners />} />
+          <Route path="iletisim" element={<Contact />} />
+          <Route
+            path="*"
+            element={
+              <main style={{ padding: "1rem" }}>
+                <p>Burada pek bir şey yok...</p>
+              </main>
+            }
+          />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
