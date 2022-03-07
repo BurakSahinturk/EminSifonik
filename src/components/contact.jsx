@@ -15,6 +15,7 @@ const Contact = () => {
             <a href="mailto:sahinturkmahmut@gmail.com" className="h4">
               sahinturkmahmut@gmail.com.com
             </a>
+            {/* </a> d */}
           </div>
           <div className="col-sm my-4 text-center order-1 order-sm-3">
             {/* <PhoneIcon /> */}
