@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import NavBarLogo from "../images/emin_sifonik_logo.png";
+import NavBarLogo from "/images/emin_sifonik_logo.png";
 
 const NavBar = () => {
   return (
