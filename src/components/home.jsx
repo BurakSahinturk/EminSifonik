@@ -15,7 +15,6 @@ const HomePage = () => {
         <div className="row m-0 p-0">
           <div className="col-sm">
             <img src={ESLogo} className="" alt="logo" />
-            {/* <ESLogo /> */}
           </div>
         </div>
         <div className="row m-0 pb-3">

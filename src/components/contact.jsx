@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AddIcon from "./svg/addressIcon";
-import MailIcon from "./svg/mailIcon";
+import MailIcon from "./svg/mailIcon.svg";
 import PhoneIcon from "./svg/phoneIcon";
 
 const Contact = () => {
@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm my-4 text-center order-2 order-sm-1">
-            <MailIcon />
+            <img src={MailIcon} className="" alt="E posta" />
             <p className="my-3 caro-text">E-postayla Ulaşın!</p>
             <a href="mailto:sahinturkmahmut@gmail.com" className="h4">
               sahinturkmahmut@gmail.com.com
