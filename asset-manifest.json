@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/eminsifonik/static/css/main.c6e6d6c2.css",
+    "main.js": "/eminsifonik/static/js/main.60c05d5c.js",
+    "static/js/787.f9bbcad3.chunk.js": "/eminsifonik/static/js/787.f9bbcad3.chunk.js",
+    "static/media/eminsifoniklogo.svg": "/eminsifonik/static/media/eminsifoniklogo.0f1ce13d6fa620790e8fcf0ffc7c5142.svg",
+    "index.html": "/eminsifonik/index.html",
+    "main.c6e6d6c2.css.map": "/eminsifonik/static/css/main.c6e6d6c2.css.map",
+    "main.60c05d5c.js.map": "/eminsifonik/static/js/main.60c05d5c.js.map",
+    "787.f9bbcad3.chunk.js.map": "/eminsifonik/static/js/787.f9bbcad3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6e6d6c2.css",
+    "static/js/main.60c05d5c.js"
+  ]
+}
