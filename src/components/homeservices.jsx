@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import TerraceDrainPic from "../images/services/terrace_drain.jpg";
+import HydroTechnicPic from "../images/services/hydrotechnic.jpg";
+import UygulamaPic from "../images/services/uygulama.jpg";
 
 const HomeServices = () => {
   return (
@@ -8,8 +11,10 @@ const HomeServices = () => {
         <div className="col-sm p-0 border border-white">
           <div className="overlay-container">
             <img
-              src="/images/services/terrace_drain.jpg"
+              src={TerraceDrainPic}
               alt="Teras Süzgeci"
+              HydroTechnicPic
+              from
               className="img-fluid w-100"
             />
             <div className="overlay">
@@ -22,7 +27,7 @@ const HomeServices = () => {
         <div className="col-sm p-0 border border-white">
           <div className="overlay-container">
             <img
-              src="/images/services/hydrotechnic.jpg"
+              src={HydroTechnicPic}
               alt="HydroTechnic"
               className="img-fluid w-100"
             />
@@ -35,11 +40,7 @@ const HomeServices = () => {
         </div>
         <div className="col-sm p-0 border border-white">
           <div className="overlay-container">
-            <img
-              src="/images/services/uygulama.jpg"
-              alt="Uygulama"
-              className="img-fluid w-100"
-            />
+            <img src={UygulamaPic} alt="Uygulama" className="img-fluid w-100" />
             <div className="overlay">
               <NavLink className="nav-link overlay" to="/uygulama">
                 <div className="text">Uygulama</div>
