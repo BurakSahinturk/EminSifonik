@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
-const OurServices = () => {
+const HomeServices = () => {
   return (
     <div className="container">
       <div className="row m-0">
@@ -27,7 +27,7 @@ const OurServices = () => {
               className="img-fluid w-100"
             />
             <div className="overlay">
-              <NavLink className="nav-link overlay" to="/sistemcozumu">
+              <NavLink className="nav-link overlay" to="/projelendirme">
                 <div className="text">Sifonik Sistem Çözümü</div>
               </NavLink>
             </div>
@@ -52,4 +52,4 @@ const OurServices = () => {
   );
 };
 
-export default OurServices;
+export default HomeServices;

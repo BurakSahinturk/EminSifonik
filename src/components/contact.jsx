@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-// import AddIcon from "./svg/addressIcon";
-// import MailIcon from "./svg/mailIcon";
-// import PhoneIcon from "./svg/phoneIcon";
+import AddIcon from "./svg/addressIcon";
+import MailIcon from "./svg/mailIcon";
+import PhoneIcon from "./svg/phoneIcon";
 
 const Contact = () => {
   return (
@@ -10,25 +10,24 @@ const Contact = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm my-4 text-center order-2 order-sm-1">
-            {/* <MailIcon /> */}
+            <MailIcon />
             <p className="my-3 caro-text">E-postayla Ulaşın!</p>
             <a href="mailto:sahinturkmahmut@gmail.com" className="h4">
               sahinturkmahmut@gmail.com.com
             </a>
-            {/* </a> d */}
           </div>
           <div className="col-sm my-4 text-center order-1 order-sm-3">
-            {/* <PhoneIcon /> */}
+            <PhoneIcon />
             <p className="my-3 caro-text">Telefonla Ulaşın!</p>
             <a href="tel:+905332151429" className="h4">
               0533 215 14 29
             </a>
           </div>
           <div className="col-sm my-4 text-center order-3 order-sm-2">
-            {/* <AddIcon /> */}
+            <AddIcon />
             <p className="my-3 caro-text">Buyrun Çayımızı İçin...</p>
             <div className="mt-4 h5">
-              Ertuğrulgazi Mh. 4. Dilek Sk. No:14 Yıldırım / Bursa{" "}
+              Ertuğrulgazi Mh. 4. Dilek Sk. No:14 Yıldırım / Bursa
             </div>
           </div>
         </div>

@@ -3,10 +3,14 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/">
-          <img src="/images/emin_sifonik_logo.png" alt="" width="200px" />
+          <img
+            src="/images/emin_sifonik_logo.png"
+            alt="Ana Sayfa"
+            width="200px"
+          />
         </NavLink>
         <button
           className="navbar-toggler"
@@ -20,8 +24,8 @@ const NavBar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <div className="vr"></div>
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-lg-center">
+            <div className="vr d-none d-md-block"></div>
             <li className="nav-item">
               <NavLink className="nav-link" to="/hakkimizda">
                 Hakkımızda
@@ -33,19 +37,19 @@ const NavBar = () => {
                 Neden Sifonik
               </NavLink>
             </li>
-            <div className="vr"></div>
+            <div className="vr d-none d-lg-block"></div>
             <li className="nav-item">
               <NavLink className="nav-link" to="/nedenbiz">
                 Neden Biz
               </NavLink>
             </li>
-            <div className="vr"></div>
+            <div className="vr d-none d-lg-block"></div>
             <li className="nav-item">
               <NavLink className="nav-link" to="/partnerlerimiz">
                 Partnerlerimiz
               </NavLink>
             </li>
-            <div className="vr"></div>
+            <div className="vr d-none d-lg-block"></div>
             <li className="nav-item dropdown">
               <div
                 className="nav-link dropdown-toggle"
@@ -75,7 +79,7 @@ const NavBar = () => {
                 </li>
               </ul>
             </li>
-            <div className="vr"></div>
+            <div className="vr d-none d-lg-block"></div>
             <li className="nav-item">
               <NavLink className="nav-link" to="/iletisim">
                 İletişim

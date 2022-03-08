@@ -3,48 +3,69 @@ import { NavLink } from "react-router-dom";
 
 const WhyUs = () => {
   return (
-    <div className="m-3">
-      <h2 className="">Neden HydroMax® Süzgeçleri?</h2>
-      <ul className="">
-        Hydromax® Süzgeçleri aynı kapasitedeki rakiplerine göre:
-        <li>Daha ucuzdur</li>
+    <div className="m-3 fs-4">
+      <h2 className="mx-3">HydroMax® Süzgeçlerinin Üstün Yanları:</h2>
+      <ul>
+        HydroMax® Süzgeçleri rakiplerinin aynı kapasitedeki ürünlerine göre;
+        <li>Daha ekonomiktir</li>
+        <li>Daha ufak boyutludur, daha dar derelere sığabilirler</li>
         <li>
-          Daha verimlidir, aynı miktardaki suyu daha az göllenme ile tahliye
-          eder, bu sayede oluk taşmalarını engeller
+          Daha verimlidir, aynı akış miktarını çok daha az göllenme ile sağlar.
+          Oluklardaki su birikimini asgariye indirir
         </li>
-        <li>Daha küçüktür, bu sayede daha küçük oluklara uygulanabilir</li>
-        <li>
-          Daha estetik görünümlüdür, Teras çatılarda görsel rahatsızlık vermeden
-          uygulanabilir
-        </li>
+        <li>Daha uzun ömürlüdür</li>
       </ul>
-      <NavLink className="nav-link" to="/suzgecler">
-        {" "}
-        Yakışıklı süzgeçlerimizi görmek için buraya basın
+      <NavLink className="nav-link fs-3 p-0 ms-4" to="/suzgecler">
+        Yakışıklı süzgeçlerimize göz atmak için buraya basın
       </NavLink>
       <hr />
-      <h2 className="">Neden HydroMax® Sistemi?</h2>
-      <ul className="">
-        HydroMax® sistem tasarımı için kullanılan HydroTechnic® Yazılımı
-        rakiplerine göre:
-        <li>Daha kesin hesaplar yapar</li>
+      <h2 className="mx-3">HydroMax® Sisteminin Üstün Yanları:</h2>
+      <ul>
+        HydroMax® Sifonik Sistem çözümleri rakiplerine göre;
+        <li>Daha kesin hesaplar yapabilir</li>
         <li>
-          Hesaplarını normal koşullara göre değil, ekstrem koşullara göre yapar
+          Hesaplarını normal şartlara göre değil, ekstrem koşullara göre yapar.
+          Bu sayede bozulma/kırılma/patlama gibi aksaklıklar ve masraflar
+          asgariye iner
         </li>
         <li>
-          Sistem dolma ve aktifleşme süresini de hesaba katar, bu sayede daha
-          etkin ve sessiz bir drenaj sağlar
+          Hesaplarını Avrupa Standartlarından bile daha yüksek olan Birleşik
+          Krallık (BS 8490:2007), ABD (ASPE/ANSI 45:2013) ve Singapur (SS
+          525:2006) Standartlarına göre yapar.
         </li>
         <li>
-          Buna rağmen, keskin hesap gücüyle rakiplerinin güvenli alanda kalmak
-          için yaptığı aşırı kullanımlardan kaçınarak optimum sonuçlar vererek
-          daha ekonomik çözümler sonuçlar
+          Sistem dolma ve aktifleşme sürelerini de hesaba katar. Bu sayede daha
+          sessiz ve daha hızlı drenaj sağlar. Oluk taşmalarının önüne geçer
+        </li>
+        <li>
+          Kullandığı tüm üstün standartlara rağmen kesin hesap gücüyle,
+          rakiplerinin güvenli tarafta kalmak için yaptığı aşırı kullanımlara
+          ihtiyaç duymadan daha ekonomik çözümler sunar
+        </li>
+        <li>
+          Ön üretim şemalarını otomatik olarak hazırlayarak hem üretimi
+          hızlandırır hem de hata riskini azaltır
         </li>
       </ul>
-      <NavLink className="nav-link" to="/iletisim">
-        {" "}
-        Projenizde HydroMax® ürünleri kullanmak için bizimle iletişime geçin.
-        Bizimle iletişime geçmek için buraya basın{" "}
+      <NavLink className="nav-link fs-3 p-0 ms-4" to="/nedenbiz">
+        Daha fazla detay için buraya basın!
+      </NavLink>
+      <hr />
+      <h2 className="mx-3">
+        <span>EMiN</span>SiFONiK
+      </h2>
+      <ul>
+        HydroMax® ürünlerinin Türkiye Distrübitörü EMiN
+        <span className="text-emin">SiFONiK</span> uygulama konusunda da
+        yanınızdadır
+        <li>Uygun Fiyatlı</li>
+        <li>Uzman</li>
+        <li>Deneyimli</li>
+        <li>Güvenilir</li>
+        işçilik sağlamaya her an hazırız. Lütfen Bize ulaşın
+      </ul>
+      <NavLink className="nav-link fs-3 p-0 mx-4" to="/iletisim">
+        İletişim Bilgilerimiz için buraya basın!
       </NavLink>
     </div>
   );

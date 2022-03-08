@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import OurServices from "./ourservices";
+import HomeServices from "./homeservices";
 import HomeDrains from "./homedrains";
 import ESLogo from "./eminsifoniklogo.svg";
 import Welcome from "./welcome";
@@ -52,7 +52,7 @@ const HomePage = () => {
         </div>
         <div className="row py-3 m-0 g-0">
           <div className="col">
-            <OurServices />
+            <HomeServices />
           </div>
         </div>
       </div>
