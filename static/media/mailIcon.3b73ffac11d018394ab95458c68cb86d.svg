@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="svg-adres" x="0px" y="0px" height="60" width="60" xmlns="http://www.w3.org/2000/svg">
+  <polyline points="3,57 25,41 3,25 3,57 57,57 57,25, 35,41 57,57" style="fill: none; stroke: rgb(0, 0, 0);"/>
+  <line x1="25" y1="41" x2="35" y2="41" style="fill: none; stroke: rgb(0, 0, 0);"/>
+  <polyline points="7,28 7,12 53,12 53,28" style="paint-order: stroke; fill: none; stroke: rgb(0, 0, 0);"/>
+  <line x1="3" y1="25" x2="7" y2="22" style="fill: none; stroke: rgb(0, 0, 0);"/>
+  <line x1="57" y1="25" x2="53" y2="22" style="fill: none; stroke: rgb(0, 0, 0);"/>
+  <polyline points="20,12 30,5 40,12" style="fill: none; stroke: rgb(0, 0, 0);"/>
+  <text style="font-family: Arial, sans-serif; font-size: 19.7px; paint-order: stroke; white-space: pre;" x="20" y="29.834">@</text>
+</svg>

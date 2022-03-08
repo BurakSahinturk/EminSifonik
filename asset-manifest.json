@@ -1,16 +1,26 @@
 {
   "files": {
     "main.css": "/eminsifonik/static/css/main.c6e6d6c2.css",
-    "main.js": "/eminsifonik/static/js/main.60c05d5c.js",
+    "main.js": "/eminsifonik/static/js/main.c8a6bebd.js",
     "static/js/787.f9bbcad3.chunk.js": "/eminsifonik/static/js/787.f9bbcad3.chunk.js",
+    "static/media/whoarewe.png": "/eminsifonik/static/media/whoarewe.5ec5911fcff1bfe1c603.png",
+    "static/media/stainless_steel_drain_c.png": "/eminsifonik/static/media/stainless_steel_drain_c.5fbb212251a70465c549.png",
+    "static/media/drain_in_water.png": "/eminsifonik/static/media/drain_in_water.f6ad563603d2f9ec349b.png",
+    "static/media/uygulama.jpg": "/eminsifonik/static/media/uygulama.74dc8e23a85452cb222e.jpg",
+    "static/media/terrace.jpg": "/eminsifonik/static/media/terrace.9d4c1be458f3d21976c9.jpg",
+    "static/media/drain.jpg": "/eminsifonik/static/media/drain.e80b43ec44e487258d42.jpg",
+    "static/media/terrace_drain.jpg": "/eminsifonik/static/media/terrace_drain.cde4a881968e8fd9f0ee.jpg",
+    "static/media/contact.png": "/eminsifonik/static/media/contact.119f588fc769b645ec33.png",
+    "static/media/hydrotechnic.jpg": "/eminsifonik/static/media/hydrotechnic.2bbf0bbdebced1f7f70f.jpg",
     "static/media/eminsifoniklogo.svg": "/eminsifonik/static/media/eminsifoniklogo.0f1ce13d6fa620790e8fcf0ffc7c5142.svg",
     "index.html": "/eminsifonik/index.html",
+    "static/media/mailIcon.svg": "/eminsifonik/static/media/mailIcon.3b73ffac11d018394ab95458c68cb86d.svg",
     "main.c6e6d6c2.css.map": "/eminsifonik/static/css/main.c6e6d6c2.css.map",
-    "main.60c05d5c.js.map": "/eminsifonik/static/js/main.60c05d5c.js.map",
+    "main.c8a6bebd.js.map": "/eminsifonik/static/js/main.c8a6bebd.js.map",
     "787.f9bbcad3.chunk.js.map": "/eminsifonik/static/js/787.f9bbcad3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6e6d6c2.css",
-    "static/js/main.60c05d5c.js"
+    "static/js/main.c8a6bebd.js"
   ]
 }
