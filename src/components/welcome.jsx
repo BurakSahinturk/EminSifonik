@@ -3,7 +3,7 @@ import React, { Component } from "react";
 const Welcome = () => {
   return (
     <div className="text-wrap">
-      <h2 className="text-white text-center">Tecrübe ve Özen</h2>
+      <h2 className="text-white text-center pt-2">Tecrübe ve Özen</h2>
       <p className="text-wrap fw-light fs-5">
         2005 yılından itibaren Tükiye'nin dört bir yanında Sifonik Yağmur Suyu
         Drenaj Çözümleri sunan Emin Sifonik 2022 yılı itibariyle Tükiye Genel

@@ -7,7 +7,7 @@ const HomeWhySiphonic = () => {
     <div className="overlay-container w-100 border border-white col-sm text-white">
       <img src={TerracePic} alt="" className="img-fluid" />
       <div className="overlay">
-        <NavLink className="nav-link overlay" to="/hakkimizda">
+        <NavLink className="nav-link overlay" to="/nedensifonik">
           <div className="overlay-text">Neden Sifonik?</div>
         </NavLink>
       </div>
