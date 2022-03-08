@@ -7,7 +7,7 @@ const HomeWhyUs = () => {
     <div className="overlay-container w-100 border border-white col-sm text-white">
       <img src={Drain3Pic} alt="" className="img-fluid" />
       <div className="overlay">
-        <NavLink className="nav-link overlay" to="/hakkimizda">
+        <NavLink className="nav-link overlay" to="/nedenbiz">
           <div className="overlay-text">Neden Biz?</div>
         </NavLink>
       </div>
