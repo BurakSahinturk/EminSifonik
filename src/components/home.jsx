@@ -7,13 +7,21 @@ import HomeContact from "./homecontact";
 import HomeAbout from "./homeabout";
 import HomeWhySiphonic from "./homewhysiphonic";
 import HomeWhyUs from "./homewhyus.jsx";
+import HMLogo from "../images/HydroMaxlogo.png";
 
 const HomePage = () => {
   return (
     <div>
-      <div className="container overflow-hidden">
+      <div className="container-fluid overflow-hidden">
         <div className="row m-0 p-0">
-          <div className="col-sm">
+          <div className="col-sm-5">
+            <img
+              src={HMLogo}
+              className="img-fluid p-4 d-block w-100"
+              alt="logo"
+            />
+          </div>
+          <div className="col-sm-7 my-auto">
             <img src={ESLogo} className="" alt="logo" />
           </div>
         </div>
@@ -27,7 +35,7 @@ const HomePage = () => {
         </div>
         <div className="row py-3 m-0 text-center">
           <div className="col-sm">
-            <h2>Bazı Şeyler</h2>
+            <h2>Sifonik Yağmur Suyu Drenaj Sistemleri</h2>
           </div>
         </div>
         <div className="row py-3 fs-2 text-wrap text-center m-0">

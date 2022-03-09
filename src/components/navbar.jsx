@@ -1,16 +1,13 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import NavBarLogo from "../images/emin_sifonik_logo.png";
 
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/">
-          <img
-            src={process.env.PUBLIC_URL + "/barbell.svg"}
-            alt="Ana Sayfa"
-            width="200px"
-          />
+          <img src={NavBarLogo} alt="Ana Sayfa" width="200px" />
         </NavLink>
         <button
           className="navbar-toggler"

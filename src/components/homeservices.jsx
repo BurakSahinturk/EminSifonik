@@ -6,22 +6,20 @@ import UygulamaPic from "../images/services/uygulama.jpg";
 
 const HomeServices = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row m-0">
         <div className="col-sm p-0 border border-white">
           <div className="overlay-container">
             <img
               src={TerraceDrainPic}
               alt="Teras Süzgeci"
-              HydroTechnicPic
-              from
               className="img-fluid w-100"
             />
-            <div className="overlay">
-              <NavLink className="nav-link overlay" to="/suzgecler">
+            <NavLink className="nav-link overlay" to="/suzgecler">
+              <div className="overlay">
                 <div className="text">Sifonik Süzgeçler</div>
-              </NavLink>
-            </div>
+              </div>
+            </NavLink>
           </div>
         </div>
         <div className="col-sm p-0 border border-white">
@@ -31,21 +29,21 @@ const HomeServices = () => {
               alt="HydroTechnic"
               className="img-fluid w-100"
             />
-            <div className="overlay">
-              <NavLink className="nav-link overlay" to="/projelendirme">
+            <NavLink className="nav-link overlay" to="/projelendirme">
+              <div className="overlay">
                 <div className="text">Sifonik Sistem Çözümü</div>
-              </NavLink>
-            </div>
+              </div>
+            </NavLink>
           </div>
         </div>
         <div className="col-sm p-0 border border-white">
           <div className="overlay-container">
             <img src={UygulamaPic} alt="Uygulama" className="img-fluid w-100" />
-            <div className="overlay">
-              <NavLink className="nav-link overlay" to="/uygulama">
+            <NavLink className="nav-link overlay" to="/uygulama">
+              <div className="overlay">
                 <div className="text">Uygulama</div>
-              </NavLink>
-            </div>
+              </div>
+            </NavLink>
           </div>
         </div>
       </div>

@@ -8,9 +8,9 @@ const Labor = () => {
       <h3>Tecrübe</h3>
       <p>
         En iyi ürünler ve en yetkin projelendirmenin yanında deneyimli ve
-        rekabetçi fiyatlı bir ekipten uygulama istiyorsanız; EMiN",
-        <span className="text-emin">"SiFONiK"</span> sifonik drenaj sistemleri
-        konusunda 15 yılı aşkın deneyimiyle sizinle birlikte çalışmak için
+        rekabetçi fiyatlı bir ekipten uygulama istiyorsanız; EMiN
+        <span className="text-emin">SiFONiK</span> sifonik drenaj sistemleri
+        konusunda 17 yılı aşkın deneyimiyle sizinle birlikte çalışmak için
         hazır.
       </p>
       <p>

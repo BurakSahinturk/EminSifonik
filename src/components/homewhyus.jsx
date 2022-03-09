@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import Drain3Pic from "../images/drain.jpg";
 
 const HomeWhyUs = () => {

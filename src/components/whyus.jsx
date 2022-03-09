@@ -4,9 +4,27 @@ import { NavLink } from "react-router-dom";
 const WhyUs = () => {
   return (
     <div className="m-3 fs-4">
-      <h2 className="mx-3">HydroMax® Süzgeçlerinin Üstün Yanları:</h2>
+      <h2 className="mx-3">
+        <a
+          href="http://www.hydromax.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-decoration-none"
+        >
+          HydroMax
+        </a>
+        ® Süzgeçlerinin Üstün Yanları:
+      </h2>
       <ul>
-        HydroMax® Süzgeçleri rakiplerinin aynı kapasitedeki ürünlerine göre;
+        <a
+          href="http://www.hydromax.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-decoration-none"
+        >
+          HydroMax
+        </a>
+        ® Süzgeçleri rakiplerinin aynı kapasitedeki ürünlerine göre;
         <li>Daha ekonomiktir</li>
         <li>Daha ufak boyutludur, daha dar derelere sığabilirler</li>
         <li>
@@ -19,9 +37,28 @@ const WhyUs = () => {
         Yakışıklı süzgeçlerimize göz atmak için buraya basın
       </NavLink>
       <hr />
-      <h2 className="mx-3">HydroMax® Sisteminin Üstün Yanları:</h2>
+      <h2 className="mx-3">
+        <a
+          href="http://www.hydromax.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-decoration-none"
+        >
+          HydroMax
+        </a>
+        ® Sisteminin Üstün Yanları:
+      </h2>
       <ul>
-        HydroMax® Sifonik Sistem çözümleri rakiplerine göre;
+        <a
+          href="http://www.hydromax.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-decoration-none"
+        >
+          HydroMax
+        </a>
+        ® Sifonik Sistem Tasarımları, tescilli yazılımı HydroTechnic® ile
+        yapılır. HydroTechnic® rakiplerine göre;
         <li>Daha kesin hesaplar yapabilir</li>
         <li>
           Hesaplarını normal şartlara göre değil, ekstrem koşullara göre yapar.
@@ -38,7 +75,7 @@ const WhyUs = () => {
           sessiz ve daha hızlı drenaj sağlar. Oluk taşmalarının önüne geçer
         </li>
         <li>
-          Kullandığı tüm üstün standartlara rağmen kesin hesap gücüyle,
+          Kullandığı tüm üstün standartlara rağmen keskin hesap gücüyle,
           rakiplerinin güvenli tarafta kalmak için yaptığı aşırı kullanımlara
           ihtiyaç duymadan daha ekonomik çözümler sunar
         </li>
@@ -46,18 +83,43 @@ const WhyUs = () => {
           Ön üretim şemalarını otomatik olarak hazırlayarak hem üretimi
           hızlandırır hem de hata riskini azaltır
         </li>
+        En iyi sifonik sistem ürünleri ve en kaliteli sistem tasarımları için
+        bizimle iletişime geçin
       </ul>
-      <NavLink className="nav-link fs-3 p-0 ms-4" to="/nedenbiz">
-        Daha fazla detay için buraya basın!
+      <NavLink className="nav-link fs-3 p-0 ms-4" to="/iletisim">
+        İletişim Bilgilerimiz için buraya basın!
       </NavLink>
       <hr />
       <h2 className="mx-3">
         <span>EMiN</span>SiFONiK
       </h2>
       <ul>
-        HydroMax® ürünlerinin Türkiye Distrübitörü EMiN
-        <span className="text-emin">SiFONiK</span> uygulama konusunda da
-        yanınızdadır
+        <a
+          href="http://www.hydromax.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          HydroMax
+        </a>
+        ® ürünlerinin Türkiye Distrübitörü EMiN
+        <span className="text-emin">SiFONiK</span>,{" "}
+        <a
+          href="https://coescompany.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          COES
+        </a>
+        'in Coestilen® veya dilerseniz ekstra sessiz BluePower®{" "}
+        <a
+          href="http://www.coescompany.com/images/brochurecoes.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          boru ve fittingsleri
+        </a>
+        yle birlikte uygulama konusunda da yanınızda
         <li>Uygun Fiyatlı</li>
         <li>Uzman</li>
         <li>Deneyimli</li>

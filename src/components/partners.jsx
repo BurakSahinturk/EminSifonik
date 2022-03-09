@@ -1,22 +1,24 @@
 import React, { Component } from "react";
+import DrainPartnerPic from "../images/suzgecpartner.png";
+import PipePartnerPic from "../images/borupartner.png";
 
 const Partners = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row text-center">
-        <div className="col bg-light m-5 p-3 d-flex flex-column">
+        <div className="col bg-light m-5 p-3">
           <a
             href="http://www.hydromax.com/"
             target="_blank"
-            className="text-decoration-none"
+            className="text-decoration-none d-flex flex-column"
           >
             <img
-              src="/images/suzgecpartner.png"
+              src={DrainPartnerPic}
               alt="Süzgeç Partneri"
               width="200 px"
               className="mx-auto"
             />
-            <p className="caro-text text-decoration-none">"Süzgeçler</p>
+            <p className="caro-text text-decoration-none">Süzgeçler</p>
             <img
               src="http://www.hydromax.com/cms/images/products/terrace_drain_c.jpg"
               alt="HydroMax Süzgeçleri"
@@ -27,24 +29,25 @@ const Partners = () => {
               Emin Sifonik HydroMax Ürünlerinin Türkiye Distribütörüdür
             </p>
             <p className="caro-text">
-              Sifonik Sistemlerde en iyiye ulaşfmak için HydroMax süzgeçleri
+              Sifonik Sistemlerde en iyiye ulaşmak için HydroMax süzgeçleri
               kullanıyoruz
             </p>
             <img
               src="http://www.hydromax.com/images/logo.png"
               alt="HydroMax Logosu"
               width="370 px"
+              className="mx-auto"
             />
           </a>
         </div>
-        <div className="col bg-light m-5 p-3 d-flex flex-column">
+        <div className="col bg-light m-5 p-3">
           <a
             href="http://coescompany.com/eng"
             target="_blank"
-            className="text-decoration-none"
+            className="text-decoration-none d-flex flex-column"
           >
             <img
-              src="/images/borupartner.png"
+              src={PipePartnerPic}
               alt="Süzgeç Partneri"
               width="200 px"
               className="mx-auto"
@@ -57,13 +60,14 @@ const Partners = () => {
               className="my-2 mx-auto"
             />
             <p className="caro-text">
-              Uyguladığımız sistemlerin güvenliğinden emin olmak için PE
+              Uyguladığımız sistemlerin güvenliğinden emin olmak için HDPE
               borularda dünya Lideri Coes ürünleri kullanıyoruz"
             </p>
             <img
               src="http://coescompany.com/eng/images/2020/03/09/topnews2.png"
               alt="Coes Logo"
               width="370 px"
+              className="mx-auto"
             />
           </a>
         </div>

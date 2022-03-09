@@ -7,9 +7,8 @@ const Welcome = () => {
       <p className="text-wrap fw-light fs-5">
         2005 yılından itibaren Tükiye'nin dört bir yanında Sifonik Yağmur Suyu
         Drenaj Çözümleri sunan Emin Sifonik 2022 yılı itibariyle Tükiye Genel
-        Distribütörü olduğu
+        Distribütörü olduğu{" "}
         <a className="text-white" href="http://www.hydromax.com/">
-          {" "}
           HydroMax
         </a>
         ® ile çok daha güçlü
