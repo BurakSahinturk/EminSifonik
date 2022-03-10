@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import DrainPartnerPic from "../images/suzgecpartner.png";
-import PipePartnerPic from "../images/borupartner.png";
+import DrainPartnerPic from "/images/suzgecpartner.png";
+import PipePartnerPic from "/images/borupartner.png";
 
 const Partners = () => {
   return (
@@ -61,7 +61,7 @@ const Partners = () => {
             />
             <p className="caro-text">
               Uyguladığımız sistemlerin güvenliğinden emin olmak için HDPE
-              borularda dünya Lideri Coes ürünleri kullanıyoruz"
+              borularda dünya Lideri Coes ürünleri kullanıyoruz
             </p>
             <img
               src="http://coescompany.com/eng/images/2020/03/09/topnews2.png"

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Carousel from "./carousel";
+import fileListOne from "./images/ist/filelist.js";
 
 const AboutUs = () => {
   return (
@@ -10,7 +12,9 @@ const AboutUs = () => {
         tarafında, değişik sifonik drenaj markalarıyla bir çok endüstri yapısı,
         hastane ve konut dahil sayısız proje uygulaması gerçekleştirdik.
       </p>
-      <div>Buraya bir karosel yakışır</div>
+      <div>
+        <Carousel list={fileListOne} dir="../images/ist" />
+      </div>
       <br />
       <br />
       <p>
