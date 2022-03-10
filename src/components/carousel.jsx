@@ -17,7 +17,7 @@ const Carousel = (props) => {
     >
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={imgsrc} alt="" />
+          <img src="" alt="" />
         </div>
       </div>
       <button

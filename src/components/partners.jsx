@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import DrainPartnerPic from "/images/suzgecpartner.png";
-import PipePartnerPic from "/images/borupartner.png";
+import DrainPartnerPic from "../images/suzgecpartner.png";
+import PipePartnerPic from "../images/borupartner.png";
 
 const Partners = () => {
   return (

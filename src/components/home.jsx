@@ -7,7 +7,7 @@ import HomeContact from "./homecontact";
 import HomeAbout from "./homeabout";
 import HomeWhySiphonic from "./homewhysiphonic";
 import HomeWhyUs from "./homewhyus.jsx";
-import HMLogo from "/images/HydroMaxlogo.png";
+import HMLogo from "../images/HydroMaxlogo.png";
 
 const HomePage = () => {
   return (
