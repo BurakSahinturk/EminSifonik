@@ -1,14 +1,20 @@
 {
   "files": {
     "main.css": "/eminsifonik/static/css/main.c6e6d6c2.css",
-    "main.js": "/eminsifonik/static/js/main.b534835d.js",
+    "main.js": "/eminsifonik/static/js/main.740a85e9.js",
     "static/js/787.f9bbcad3.chunk.js": "/eminsifonik/static/js/787.f9bbcad3.chunk.js",
+    "static/media/75PDSS029.png": "/eminsifonik/static/media/75PDSS029.0d891064d1904905b5e0.png",
+    "static/media/hydromax_leafguard.png": "/eminsifonik/static/media/hydromax_leafguard.7e8832e3b6b2e88eed52.png",
+    "static/media/car_park_drain2.jpg": "/eminsifonik/static/media/car_park_drain2.ed3df30aa36ae90c2196.jpg",
     "static/media/whoarewe.png": "/eminsifonik/static/media/whoarewe.5ec5911fcff1bfe1c603.png",
-    "static/media/125_cropped.png": "/eminsifonik/static/media/125_cropped.fd7cdda522f936ba873a.png",
-    "static/media/stainless_steel_drain_c.png": "/eminsifonik/static/media/stainless_steel_drain_c.5fbb212251a70465c549.png",
+    "static/media/125_cropped.png": "/eminsifonik/static/media/125_cropped.12cf65563488d54d8cd0.png",
+    "static/media/terrace_drain_c.png": "/eminsifonik/static/media/terrace_drain_c.e5dd39fea23eca1cad6f.png",
+    "static/media/balcony_outlet_1.png": "/eminsifonik/static/media/balcony_outlet_1.39a10243ab50d0ac5a97.png",
+    "static/media/stainless_steel_drain_c.png": "/eminsifonik/static/media/stainless_steel_drain_c.abe54681f89256f33406.png",
     "static/media/drain_in_water.png": "/eminsifonik/static/media/drain_in_water.f6ad563603d2f9ec349b.png",
     "static/media/uygulama.jpg": "/eminsifonik/static/media/uygulama.74dc8e23a85452cb222e.jpg",
     "static/media/suzgecpartner.png": "/eminsifonik/static/media/suzgecpartner.c3e08247402fe911dc96.png",
+    "static/media/pvc_overflow_c.png": "/eminsifonik/static/media/pvc_overflow_c.baa1546f4aa9de87acc7.png",
     "static/media/borupartner.png": "/eminsifonik/static/media/borupartner.3c9943b9ab7039be2b40.png",
     "static/media/terrace.jpg": "/eminsifonik/static/media/terrace.9d4c1be458f3d21976c9.jpg",
     "static/media/drain.jpg": "/eminsifonik/static/media/drain.e80b43ec44e487258d42.jpg",
@@ -16,14 +22,16 @@
     "static/media/contact.png": "/eminsifonik/static/media/contact.119f588fc769b645ec33.png",
     "static/media/hydrotechnic.jpg": "/eminsifonik/static/media/hydrotechnic.2bbf0bbdebced1f7f70f.jpg",
     "static/media/eminsifoniklogo.svg": "/eminsifonik/static/media/eminsifoniklogo.0f1ce13d6fa620790e8fcf0ffc7c5142.svg",
+    "static/media/phoneicon.svg": "/eminsifonik/static/media/phoneicon.fbf3ff66f8cd3d73c9f1fa80fee92b54.svg",
+    "static/media/addicon.svg": "/eminsifonik/static/media/addicon.d1f452a6e4b80c07c61971f2399caaad.svg",
     "index.html": "/eminsifonik/index.html",
-    "static/media/mailIcon.svg": "/eminsifonik/static/media/mailIcon.3b73ffac11d018394ab95458c68cb86d.svg",
+    "static/media/mailicon.svg": "/eminsifonik/static/media/mailicon.3b73ffac11d018394ab95458c68cb86d.svg",
     "main.c6e6d6c2.css.map": "/eminsifonik/static/css/main.c6e6d6c2.css.map",
-    "main.b534835d.js.map": "/eminsifonik/static/js/main.b534835d.js.map",
+    "main.740a85e9.js.map": "/eminsifonik/static/js/main.740a85e9.js.map",
     "787.f9bbcad3.chunk.js.map": "/eminsifonik/static/js/787.f9bbcad3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6e6d6c2.css",
-    "static/js/main.b534835d.js"
+    "static/js/main.740a85e9.js"
   ]
 }
