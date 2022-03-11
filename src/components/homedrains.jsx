@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import DrainPic from "../images/stainless_steel_drain_c.png";
 import Drain2Pic from "../images/drain_in_water.png";
 import Drain3Pic from "../images/125_cropped.png";
+import { NavLink } from "react-router-dom";
 
 const HomeDrains = () => {
   return (
@@ -10,25 +11,27 @@ const HomeDrains = () => {
       className="carousel slide carousel-fade"
       data-bs-ride="carousel"
     >
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src={DrainPic} className="d-block mx-auto my-auto" alt="..." />
+      <NavLink className="nav-link" to="suzgecler">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={DrainPic} className="d-block mx-auto my-auto" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img
+              src={Drain2Pic}
+              className="d-block mx-auto my-auto w-100"
+              alt="..."
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src={Drain3Pic}
+              className="d-block mx-auto my-auto w-100"
+              alt="..."
+            />
+          </div>
         </div>
-        <div className="carousel-item">
-          <img
-            src={Drain2Pic}
-            className="d-block mx-auto my-auto w-100"
-            alt="..."
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src={Drain3Pic}
-            className="d-block mx-auto my-auto w-100"
-            alt="..."
-          />
-        </div>
-      </div>
+      </NavLink>
     </div>
   );
 };

@@ -17,7 +17,7 @@ const HomePage = () => {
           <div className="col-sm-5">
             <img
               src={HMLogo}
-              className="img-fluid p-4 d-block w-100"
+              className="img-fluid p-4 d-block w-75 mx-auto my-auto"
               alt="logo"
             />
           </div>

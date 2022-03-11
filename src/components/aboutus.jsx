@@ -3,7 +3,7 @@ import Carousel from "./carousel";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="m-3">
       <br />
       <p>
         EMiN<span className="text-emin">SiFONiK</span> 2005 yılında Bursa'da

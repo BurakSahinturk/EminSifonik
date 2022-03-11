@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const WhyUs = () => {
   return (
-    <div className="m-3 fs-4 container-fluid">
-      <div className="row">
+    <div className="fs-4 container-fluid g-3">
+      <div className="row g-3">
         <div className="col-lg-3 home-box text-white py-2 border border-white border-4">
           <h2 className="mx-3 text-white">
             <a
@@ -34,6 +34,7 @@ const WhyUs = () => {
               sağlar. Oluklardaki su birikimini asgariye indirir
             </li>
             <li>Daha uzun ömürlüdür</li>
+            <li>Daha estetik görünümlüdür</li>
           </ul>
           <NavLink
             className="nav-link fs-3 p-0 ms-4 text-white"

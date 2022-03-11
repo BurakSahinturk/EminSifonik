@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import AddIcon from "./svg/addressIcon";
-import MailIcon from "./svg/mailIcon.svg";
-import PhoneIcon from "./svg/phoneIcon";
+import AddIcon from "./svg/addicon.svg";
+import MailIcon from "./svg/mailicon.svg";
+import PhoneIcon from "./svg/phoneicon.svg";
 
 const Contact = () => {
   return (
@@ -12,19 +12,19 @@ const Contact = () => {
           <div className="col-sm my-4 text-center order-2 order-sm-1">
             <img src={MailIcon} className="" alt="E posta" />
             <p className="my-3 caro-text">E-postayla Ulaşın!</p>
-            <a href="mailto:sahinturkmahmut@gmail.com" className="h4">
-              sahinturkmahmut@gmail.com.com
+            <a href="mailto:proje@eminsifonik.com" className="h4">
+              proje@eminsifonik.com
             </a>
           </div>
           <div className="col-sm my-4 text-center order-1 order-sm-3">
-            <PhoneIcon />
+            <img src={PhoneIcon} className="" alt="Telefon" />
             <p className="my-3 caro-text">Telefonla Ulaşın!</p>
             <a href="tel:+905332151429" className="h4">
               0533 215 14 29
             </a>
           </div>
           <div className="col-sm my-4 text-center order-3 order-sm-2">
-            <AddIcon />
+            <img src={AddIcon} className="" alt="Adres" />
             <p className="my-3 caro-text">Buyrun Çayımızı İçin...</p>
             <div className="mt-4 h5">
               Ertuğrulgazi Mh. 4. Dilek Sk. No:14 Yıldırım / Bursa

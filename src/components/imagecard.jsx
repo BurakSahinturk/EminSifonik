@@ -11,7 +11,14 @@ const ImageCard = (props) => {
         />
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
+          <p className="mb-0">
+            {"Min: " + props.min + "lt/sn Max: " + props.max + "lt/sn"}
+          </p>
+          <p>Boyut: Ø{props.size} mm</p>
           <p className="card-text">{props.text}</p>
+        </div>
+        <div class="card-footer">
+          <small class="">Çizim Linki</small>
         </div>
       </div>
     </div>
