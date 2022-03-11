@@ -17,8 +17,8 @@ const ImageCard = (props) => {
           <p>Boyut: Ø{props.size} mm</p>
           <p className="card-text">{props.text}</p>
         </div>
-        <div class="card-footer">
-          <small class="">Çizim Linki</small>
+        <div className="card-footer">
+          <small className="">Çizim Linki</small>
         </div>
       </div>
     </div>

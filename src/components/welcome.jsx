@@ -28,11 +28,11 @@ const Welcome = () => {
       </div>
       <div className="row ratio ratio-16x9 mx-auto mb-3">
         <iframe
-          src="https://www.youtube.com/embed/VeBLkxgxuDc"
+          src="https://www.youtube.com/embed/VeBLkxgxuDc?rel=0"
           title="YouTube video"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </div>

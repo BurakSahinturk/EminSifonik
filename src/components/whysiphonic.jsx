@@ -9,22 +9,22 @@ const WhySiphonic = () => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/VeBLkxgxuDc"
+            src="https://www.youtube.com/embed/VeBLkxgxuDc?rel=0"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <div className="col-lg text-center">
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/5O0EDaZV8XE"
+            src="https://www.youtube.com/embed/5O0EDaZV8XE?rel=0"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </div>

@@ -12,7 +12,7 @@ import img8 from "../images/drains/hydromax_leafguard.png";
 const Drains = () => {
   return (
     <div className="container-fluid text-center">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 p-3">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 p-3">
         <ImageCard
           src={img1}
           title="75mm Çelik Süzgeç"

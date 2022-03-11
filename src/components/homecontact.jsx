@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import ContactPic from "../images/contact.png";
+import ContactPic from "./svg/contacticon.svg";
 
 const HomeContact = () => {
   return (
