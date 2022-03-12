@@ -6,8 +6,8 @@ const Partners = () => {
   return (
     <div className="container-fluid">
       <div className="row text-center">
-        <div className="col-md"></div>
-        <div className="col-md-5 bg-light my-5 p-3">
+        <div className="col-sm"></div>
+        <div className="col-sm-5 bg-light my-5 p-3">
           <a
             href="http://www.hydromax.com/"
             target="_blank"
@@ -42,8 +42,8 @@ const Partners = () => {
             />
           </a>
         </div>
-        <div className="col-md"></div>
-        <div className="col-md-5 bg-light my-5 p-3">
+        <div className="col-sm"></div>
+        <div className="col-sm-5 bg-light my-5 p-3">
           <a
             href="http://coescompany.com/eng"
             target="_blank"
@@ -75,7 +75,7 @@ const Partners = () => {
             />
           </a>
         </div>
-        <div className="col-md"></div>
+        <div className="col-sm"></div>
       </div>
     </div>
   );
