@@ -11,6 +11,7 @@ const Partners = () => {
           <a
             href="http://www.hydromax.com/"
             target="_blank"
+            rel="noreferrer"
             className="text-decoration-none d-flex flex-column"
           >
             <img
@@ -46,6 +47,7 @@ const Partners = () => {
           <a
             href="http://coescompany.com/eng"
             target="_blank"
+            rel="noreferrer"
             className="text-decoration-none img-fluid d-flex flex-column"
           >
             <img
