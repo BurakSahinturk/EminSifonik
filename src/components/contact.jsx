@@ -37,6 +37,7 @@ const Contact = () => {
         width="400"
         height="300"
         loading="lazy"
+        title="Emin Sifonik Adres"
       ></iframe>
     </div>
   );
