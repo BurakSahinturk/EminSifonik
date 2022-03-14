@@ -32,7 +32,6 @@ const Welcome = () => {
           title="YouTube video"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-          allowFullScreen
         ></iframe>
       </div>
     </div>

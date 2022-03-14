@@ -1,10 +1,13 @@
 import React, { Component } from "react";
-import IstCarousel from "./istcarousel";
-import Pre2020Carousel from "./pre202carousel";
+import IstCarousel from "./carousels/istcarousel";
+import Pre2020Carousel from "./carousels/pre202carousel";
+import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
+import HydrefsCarousel from "./carousels/hydrefscarousel";
 
 const AboutUs = () => {
   return (
     <div className="m-3">
+      <ScrollToTopOnMount />
       <br />
       <h3 className="text-center">
         EMiN<span className="text-emin">SiFONiK</span> 2005 yılında Bursa'da
@@ -41,8 +44,13 @@ const AboutUs = () => {
         başladık. HydroMax® dünyanın dört bir yanında milyonlarca kilometre kare
         çatı alanında uygulanmış, dünya lideri markadır.
       </h3>
-      <div className="text-center">
-        ((HydroMax görselleri slaytı var aslında burda))
+
+      <div className="row">
+        <div className="col-lg-3 col-sm-1"></div>
+        <div className="col-lg-6 col-sm-10">
+          <HydrefsCarousel />
+        </div>
+        <div className="col-lg-3 col-sm-1"></div>
       </div>
     </div>
   );

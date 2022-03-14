@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import DropdownToggle from "react-bootstrap/esm/DropdownToggle";
 import { NavLink } from "react-router-dom";
-import ESLogo from "./eminsifoniklogo.svg";
+import ESLogo from "./svg/eminsifoniklogo.svg";
 
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <div className="container-fluid">
+      <div className="container-fluid" id="navbar">
         <NavLink className="navbar-brand" to="/">
           <img src={ESLogo} alt="Ana Sayfa" width="200px" />
         </NavLink>
@@ -57,7 +58,10 @@ const NavBar = () => {
               >
                 Hizmetlerimiz
               </div>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul
+                className="dropdown-menu bg-light"
+                aria-labelledby="navbarDropdown"
+              >
                 <li>
                   <NavLink className="dropdown-item" to="/suzgecler">
                     Süzgeçler

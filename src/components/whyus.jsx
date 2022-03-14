@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
 
 const WhyUs = () => {
   return (
     <div className="fs-4 container-fluid g-3">
+      <ScrollToTopOnMount />
       <div className="row g-3">
         <div className="col-lg-3 home-box text-white py-2 border border-white border-4">
           <h2 className="mx-3 text-white">

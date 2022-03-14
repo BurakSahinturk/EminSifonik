@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
 
 const SystemDesign = () => {
   return (
     <div className="m-3 fs-4">
+      <ScrollToTopOnMount />
       <h2 className="fs-1 text-center">Sifonik Sistem Çözümü</h2>
       <h3>Çözüm Bizde!</h3>
       <p>
@@ -16,7 +18,7 @@ const SystemDesign = () => {
         tasarruflu kılan şey boru çaplarının çok daha küçük olması ve iniş
         borularının sayısının çok daha az olmasıdır
       </p>
-      <NavLink className="nav-link fs-3 p-0" to="/nedensifonik">
+      <NavLink className="nav-link fs-3 p-0 text-emin" to="/nedensifonik">
         Sifonik sistemin avantajlarıyla ilgili daha fazla detay için buraya
         basın!
       </NavLink>
@@ -34,7 +36,7 @@ const SystemDesign = () => {
         HydroTechnic® rakiplerinden çok daha efektif ve dolayısıyla ekonomik
         sonuçlar çıkartan üstün bir yazılımdır.
       </p>
-      <NavLink className="nav-link fs-3 p-0" to="/nedenbiz">
+      <NavLink className="nav-link fs-3 p-0 text-emin" to="/nedenbiz">
         Daha fazla detay için buraya basın!
       </NavLink>
       <hr />
@@ -46,7 +48,7 @@ const SystemDesign = () => {
         projelendirme ve fiyatlandırma hizmetimizden hemen şimdi faydalanmak
         için hemen bize ulaşın.
       </p>
-      <NavLink className="nav-link fs-3 p-0" to="/iletisim">
+      <NavLink className="nav-link fs-3 p-0 text-emin" to="/iletisim">
         İletişim Bilgilerimiz için buraya basın!
       </NavLink>
     </div>

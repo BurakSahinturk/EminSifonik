@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import DrainPartnerPic from "../images/suzgecpartner.png";
 import PipePartnerPic from "../images/borupartner.png";
+import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
 
 const Partners = () => {
   return (
     <div className="container-fluid">
+      <ScrollToTopOnMount />
       <div className="row text-center">
         <div className="col-sm"></div>
         <div className="col-sm-5 bg-light my-5 p-3">

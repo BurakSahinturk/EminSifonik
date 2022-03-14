@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
 import ImageCard from "./imagecard";
 import img1 from "../images/drains/stainless_steel_drain_c.png";
 import img2 from "../images/drains/terrace_drain_c.png";
@@ -12,6 +13,7 @@ import img8 from "../images/drains/hydromax_leafguard.png";
 const Drains = () => {
   return (
     <div className="container-fluid text-center">
+      <ScrollToTopOnMount />
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 p-3">
         <ImageCard
           src={img1}

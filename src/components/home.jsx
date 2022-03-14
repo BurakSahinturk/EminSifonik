@@ -1,25 +1,29 @@
 import React, { Component } from "react";
 import HomeServices from "./homeservices";
 import HomeDrains from "./homedrains";
-import ESLogo from "./eminsifoniklogo.svg";
+import ESLogo from "./svg/eminsifoniklogo.svg";
 import Welcome from "./welcome";
 import HomeContact from "./homecontact";
 import HomeAbout from "./homeabout";
 import HomeWhySiphonic from "./homewhysiphonic";
 import HomeWhyUs from "./homewhyus.jsx";
 import HMLogo from "../images/HydroMaxlogo.png";
+import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
 
 const HomePage = () => {
   return (
     <div>
+      <ScrollToTopOnMount />
       <div className="container-fluid overflow-hidden">
         <div className="row m-0 p-0">
           <div className="col-sm-5">
-            <img
-              src={HMLogo}
-              className="img-fluid p-4 d-block w-75 mx-auto my-auto"
-              alt="logo"
-            />
+            <a href="http://www.hydromax.com">
+              <img
+                src={HMLogo}
+                className="img-fluid p-4 d-block w-75 mx-auto my-auto"
+                alt="logo"
+              />
+            </a>
           </div>
           <div className="col-sm-7 my-auto">
             <img src={ESLogo} className="" alt="logo" />
