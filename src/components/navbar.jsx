@@ -11,7 +11,7 @@ const NavBar = () => {
           <img src={ESLogo} alt="Ana Sayfa" width="200px" />
         </NavLink>
         <button
-          //className="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
