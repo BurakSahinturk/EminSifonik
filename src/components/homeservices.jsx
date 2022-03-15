@@ -12,7 +12,7 @@ const HomeServices = () => {
           <div className="overlay-container">
             <img
               src={TerraceDrainPic}
-              alt="Teras Süzgeci"
+              alt="Sifonik Yağmursuyu Teras Süzgeci"
               className="img-fluid w-100"
             />
             <NavLink className="nav-link overlay" to="/suzgecler">
@@ -38,7 +38,11 @@ const HomeServices = () => {
         </div>
         <div className="col-sm p-0 border border-white">
           <div className="overlay-container">
-            <img src={UygulamaPic} alt="Uygulama" className="img-fluid w-100" />
+            <img
+              src={UygulamaPic}
+              alt="Sifonik Uygulama"
+              className="img-fluid w-100"
+            />
             <NavLink className="nav-link overlay" to="/uygulama">
               <div className="overlay">
                 <div className="text">Uygulama</div>

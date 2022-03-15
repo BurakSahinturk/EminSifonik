@@ -8,7 +8,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div className="container-fluid" id="navbar">
         <NavLink className="navbar-brand" to="/">
-          <img src={ESLogo} alt="Ana Sayfa" width="200px" />
+          <img src={ESLogo} alt="Emin Sifonik Ana Sayfa" width="200px" />
         </NavLink>
         <button
           className="navbar-toggler"

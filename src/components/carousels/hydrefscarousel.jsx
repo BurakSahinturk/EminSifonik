@@ -21,24 +21,27 @@ export default class HydrefsCarousel extends Component {
     return (
       <Carousel autoPlay={true} infiniteLoop={true} verticalSwipe={"natural"}>
         <div>
-          <img src={CarouselPic1} alt="Dundrum" />
+          <img src={CarouselPic1} alt="Sifonik Süzgeç örnek uygulama Dundrum" />
           <p className="legend">Dundrum AVM, Dublin, İrlanda</p>
         </div>
 
         <div>
-          <img src={CarouselPic2} alt="Dundrum" />
+          <img src={CarouselPic2} alt="Sifonik Süzgeç örnek uygulama Dundrum" />
           <p className="legend">Dundrum AVM, Dublin, İrlanda</p>
         </div>
 
         <div>
-          <img src={CarouselPic3} alt="Walmart" />
+          <img src={CarouselPic3} alt="Sifonik Süzgeç örnek uygulama Walmart" />
           <p className="legend">
             Walmart ABD ve dünyanın en büyük market zinciri, Sadece HydroMax®
             kullanıyor
           </p>
         </div>
         <div>
-          <img src={CarouselPic4} alt="Tottenham Hostpurs EPL" />
+          <img
+            src={CarouselPic4}
+            alt="Sifonik Süzgeç örnek uygulama Tottenham Hostpurs EPL"
+          />
           <p className="legend">
             Tottenham Hotspurs Stadı, Londra, İngiltere. Avrupadaki bir çok
             stadyum HydroMax® kullanıyor{" "}
@@ -46,12 +49,15 @@ export default class HydrefsCarousel extends Component {
         </div>
 
         <div>
-          <img src={CarouselPic5} alt="Ng Teng Fong" />
+          <img
+            src={CarouselPic5}
+            alt="Sifonik Süzgeç örnek uygulama Ng Teng Fong"
+          />
           <p className="legend">Ng Teng Hastanesi, Singapur</p>
         </div>
 
         <div>
-          <img src={CarouselPic6} alt="" />
+          <img src={CarouselPic6} alt="Sifonik Süzgeç örnek uygulama " />
           <p className="legend">
             HydroMax® hem yeşil çatılarda hem de yeşil alanlarda kullanıma
             uygundur
@@ -59,50 +65,50 @@ export default class HydrefsCarousel extends Component {
         </div>
 
         <div>
-          <img src={CarouselPic7} alt="" />
+          <img src={CarouselPic7} alt="Sifonik Süzgeç örnek uygulama " />
           <p className="legend">
             Beoing 737 Fabrikası, Renton, Washington, ABD
           </p>
         </div>
 
         <div>
-          <img src={CarouselPic8} alt="" />
+          <img src={CarouselPic8} alt="Sifonik Süzgeç örnek uygulama " />
           <p className="legend">
             Mercedes Benz Kuzey Amerika Merkez Deposu, Woodstock, Alabama, ABD
           </p>
         </div>
 
         <div>
-          <img src={CarouselPic9} alt="" />
+          <img src={CarouselPic9} alt="Sifonik Süzgeç örnek uygulama " />
           <p className="legend">
             Mercedes Benz Kuzey Amerika Merkez Deposu, Woodstock, Alabama, ABD
           </p>
         </div>
 
         <div>
-          <img src={CarouselPic10} alt="" />
+          <img src={CarouselPic10} alt="Sifonik Süzgeç örnek uygulama " />
           <p className="legend">
             Yeni İskoçya Parlamento Binası, Edinburgh, İskoçya
           </p>
         </div>
 
         <div>
-          <img src={CarouselPic11} alt="" />
+          <img src={CarouselPic11} alt="Sifonik Süzgeç örnek uygulama " />
           <p className="legend">
             Yeni İskoçya Parlamento Binası, Edinburgh, İskoçya
           </p>
         </div>
 
         <div>
-          <img src={CarouselPic12} alt="" />
+          <img src={CarouselPic12} alt="Sifonik Süzgeç örnek uygulama " />
         </div>
 
         <div>
-          <img src={CarouselPic13} alt="" />
+          <img src={CarouselPic13} alt="Sifonik Süzgeç örnek uygulama " />
         </div>
 
         <div>
-          <img src={CarouselPic16} alt="" />
+          <img src={CarouselPic16} alt="Sifonik Süzgeç örnek uygulama " />
         </div>
       </Carousel>
     );

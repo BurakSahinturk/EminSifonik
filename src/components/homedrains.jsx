@@ -14,20 +14,24 @@ const HomeDrains = () => {
       <NavLink className="nav-link" to="suzgecler">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={DrainPic} className="d-block mx-auto my-auto" alt="..." />
+            <img
+              src={DrainPic}
+              className="d-block mx-auto my-auto"
+              alt="Sifonik Yağmur Suyu Süzgeç"
+            />
           </div>
           <div className="carousel-item">
             <img
               src={Drain2Pic}
               className="d-block mx-auto my-auto w-100"
-              alt="..."
+              alt="Sifonik Yağmur Suyu Süzgeç"
             />
           </div>
           <div className="carousel-item">
             <img
               src={Drain3Pic}
               className="d-block mx-auto my-auto w-100"
-              alt="..."
+              alt="Sifonik Yağmur Suyu Süzgeç"
             />
           </div>
         </div>

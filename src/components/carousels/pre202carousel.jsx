@@ -19,74 +19,110 @@ export default class Pre2020Carousel extends Component {
     return (
       <Carousel autoPlay={true} infiniteLoop={true} verticalSwipe={"natural"}>
         <div>
-          <img src={CarouselPic1} alt="Altınsar Tekstil" />
+          <img
+            src={CarouselPic1}
+            alt="Sifonik Uygulama Örneği - Altınsar Tekstil"
+          />
           <p className="legend">Altınsar Tekstil Fabrika Binası (Uşak)</p>
         </div>
 
         <div>
-          <img src={CarouselPic2} alt="Altınsar Tekstil" />
+          <img
+            src={CarouselPic2}
+            alt="ASifonik Uygulama Örneği - ltınsar Tekstil"
+          />
           <p className="legend">Altınsar Tekstil Fabrika Binası (Uşak)</p>
         </div>
 
         <div>
-          <img src={CarouselPic3} alt="KJ Jenaratör" />
+          <img
+            src={CarouselPic3}
+            alt="Sifonik Uygulama Örneği - KJ Jenaratör"
+          />
           <p className="legend">
             KJ Jeneratör Fabrika Binası (Pendik, İstanbul)
           </p>
         </div>
 
         <div>
-          <img src={CarouselPic4} alt="KJ Jenaratör" />
+          <img
+            src={CarouselPic4}
+            alt="Sifonik Uygulama Örneği - KJ Jenaratör"
+          />
           <p className="legend">
             KJ Jeneratör Fabrika Binası (Pendik, İstanbul)
           </p>
         </div>
 
         <div>
-          <img src={CarouselPic5} alt="KJ Jenaratör" />
+          <img
+            src={CarouselPic5}
+            alt="Sifonik Uygulama Örneği - KJ Jenaratör"
+          />
           <p className="legend">
             KJ Jeneratör Fabrika Binası (Pendik, İstanbul)
           </p>
         </div>
 
         <div>
-          <img src={CarouselPic6} alt="Doruk Hastanesi" />
+          <img
+            src={CarouselPic6}
+            alt="Sifonik Uygulama Örneği - Doruk Hastanesi"
+          />
           <p className="legend">
             Doruk Özel Nilüfer Hastanesi (Nilüfer, Bursa)
           </p>
         </div>
 
         <div>
-          <img src={CarouselPic7} alt="Doruk Hastanesi" />
+          <img
+            src={CarouselPic7}
+            alt="Sifonik Uygulama Örneği - Doruk Hastanesi"
+          />
           <p className="legend">
             Doruk Özel Nilüfer Hastanesi (Nilüfer, Bursa)
           </p>
         </div>
 
         <div>
-          <img src={CarouselPic8} alt="Doruk Hastanesi" />
+          <img
+            src={CarouselPic8}
+            alt="Sifonik Uygulama Örneği - Doruk Hastanesi"
+          />
           <p className="legend">
             Doruk Özel Nilüfer Hastanesi (Nilüfer, Bursa)
           </p>
         </div>
 
         <div>
-          <img src={CarouselPic9} alt="Çorlu Fabrika" />
+          <img
+            src={CarouselPic9}
+            alt="Sifonik Uygulama Örneği - Çorlu Fabrika"
+          />
           <p className="legend">Fabrika Binası (Çorlu, Tekirdağ)</p>
         </div>
 
         <div>
-          <img src={CarouselPic10} alt="Çorlu Fabrika" />
+          <img
+            src={CarouselPic10}
+            alt="Sifonik Uygulama Örneği - Çorlu Fabrika"
+          />
           <p className="legend">Fabrika Binası (Çorlu, Tekirdağ)</p>
         </div>
 
         <div>
-          <img src={CarouselPic11} alt="Çorlu Fabrika" />
+          <img
+            src={CarouselPic11}
+            alt="Sifonik Uygulama Örneği - Çorlu Fabrika"
+          />
           <p className="legend">Fabrika Binası (Çorlu, Tekirdağ)</p>
         </div>
 
         <div>
-          <img src={CarouselPic12} alt="Çorlu Fabrika" />
+          <img
+            src={CarouselPic12}
+            alt="Sifonik Uygulama Örneği - Çorlu Fabrika"
+          />
           <p className="legend">Fabrika Binası (Çorlu, Tekirdağ)</p>
         </div>
       </Carousel>

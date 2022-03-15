@@ -21,12 +21,12 @@ const HomePage = () => {
               <img
                 src={HMLogo}
                 className="img-fluid p-4 d-block w-75 mx-auto my-auto"
-                alt="logo"
+                alt="HydroMax Sifonik Süzgeç logosu"
               />
             </a>
           </div>
           <div className="col-sm-7 my-auto">
-            <img src={ESLogo} className="" alt="logo" />
+            <img src={ESLogo} className="" alt="Emin Sifonik logosu" />
           </div>
         </div>
         <div className="row m-0 pb-3">

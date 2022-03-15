@@ -5,7 +5,11 @@ import TerracePic from "../images/terrace.jpg";
 const HomeWhySiphonic = () => {
   return (
     <div className="overlay-container w-100 border border-white col-sm text-white">
-      <img src={TerracePic} alt="" className="img-fluid" />
+      <img
+        src={TerracePic}
+        alt="Sifonik Yağmur Suyu Süzgeci"
+        className="img-fluid"
+      />
       <div className="overlay">
         <NavLink className="nav-link overlay" to="/nedensifonik">
           <div className="overlay-text">Neden Sifonik?</div>

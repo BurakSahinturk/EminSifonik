@@ -18,14 +18,14 @@ const Partners = () => {
           >
             <img
               src={DrainPartnerPic}
-              alt="Süzgeç Partneri"
+              alt="Sifonik Süzgeç Partneri"
               width="200 px"
               className="mx-auto"
             />
             <p className="caro-text text-decoration-none">Süzgeçler</p>
             <img
               src="http://www.hydromax.com/cms/images/products/terrace_drain_c.jpg"
-              alt="HydroMax Süzgeçleri"
+              alt="HydroMax Sifonik Süzgeçleri"
               height="100 px"
               className="my-2 mx-auto"
             />
@@ -38,7 +38,7 @@ const Partners = () => {
             </p>
             <img
               src="http://www.hydromax.com/images/logo.png"
-              alt="HydroMax Logosu"
+              alt="HydroMax Sifonik Logosu"
               width="370 px"
               className="mx-auto img-fluid"
             />
@@ -54,7 +54,7 @@ const Partners = () => {
           >
             <img
               src={PipePartnerPic}
-              alt="Süzgeç Partneri"
+              alt="Yağmur suyu Süzgeç Partneri"
               width="200 px"
               className="mx-auto img-fluid"
             />

@@ -17,9 +17,15 @@
   # Default build command.
   command = "echo 'default context'"
 
-# [[plugins]]
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
   # Installs the Lighthouse Build Plugin for all deploy contexts
-#  package = "@netlify/plugin-lighthouse"
+
+  [plugins.inputs]
+  buildDir = "public"
+
+[[context.production.plugins]]
+  package = "@netlify/plugin-sitemap"
 
 # Production context: all deploys from the Production branch 
 # set in your site’s Branches settings in the UI

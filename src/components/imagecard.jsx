@@ -7,7 +7,7 @@ const ImageCard = (props) => {
         <img
           src={props.src}
           className="card-img-top my-auto"
-          alt={props.title}
+          alt={"Sifonik Yaümur Suyu süzgeç" + props.title}
         />
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
