@@ -8,7 +8,7 @@ import HomeAbout from "./homeabout";
 import HomeWhySiphonic from "./homewhysiphonic";
 import HomeWhyUs from "./homewhyus.jsx";
 import HMLogo from "../images/HydroMaxlogo.png";
-import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
+import ScrollToTopOnMount from "./scrolltotoponmount";
 
 const HomePage = () => {
   return (

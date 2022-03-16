@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
+import ScrollToTopOnMount from "./scrolltotoponmount";
 import ImageCard from "./imagecard";
 import img1 from "../images/drains/stainless_steel_drain_c.png";
 import img2 from "../images/drains/terrace_drain_c.png";

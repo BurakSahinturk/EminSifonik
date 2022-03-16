@@ -1,39 +1,29 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Lazy, EffectCube } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "swiper/css/effect-cube";
 
-import CarouselPic1 from "../../images/hydrefs/DundrumCo-Ord 03.JPG";
-import CarouselPic2 from "../../images/hydrefs/Picture1.jpg";
-import CarouselPic3 from "../../images/hydrefs/Resim01.png";
-import CarouselPic4 from "../../images/hydrefs/Resim02.jpg";
-import CarouselPic5 from "../../images/hydrefs/Resim03.jpg";
-import CarouselPic6 from "../../images/hydrefs/Resim04.jpg";
-import CarouselPic7 from "../../images/hydrefs/Resim05.png";
-import CarouselPic8 from "../../images/hydrefs/Resim06.png";
-import CarouselPic9 from "../../images/hydrefs/Resim07.jpg";
-import CarouselPic10 from "../../images/hydrefs/Resim08.jpg";
-import CarouselPic11 from "../../images/hydrefs/Resim09.jpg";
-import CarouselPic12 from "../../images/hydrefs/Resim10.jpg";
-import CarouselPic13 from "../../images/hydrefs/T20170508_094652.jpg";
-import CarouselPic14 from "../../images/hydrefs/TDSCN0805.JPG";
-const HydrefsCarousel = () => {
+import { Navigation, Pagination, Lazy } from "swiper";
+
+import CarouselPic1 from "../../images/pre2020/376f6f50-2583-467f-a4fc-628eb531a002.JPG";
+import CarouselPic2 from "../../images/pre2020/4df517f0-a695-4c4e-b664-d92460a01b8e.JPG";
+import CarouselPic3 from "../../images/pre2020/IMG_1064.jpg";
+import CarouselPic4 from "../../images/pre2020/IMG_1065.jpg";
+import CarouselPic5 from "../../images/pre2020/IMG_1066.jpg";
+import CarouselPic6 from "../../images/pre2020/IMG_2488.jpg";
+import CarouselPic7 from "../../images/pre2020/IMG_2489.jpg";
+import CarouselPic8 from "../../images/pre2020/IMG_2497.jpg";
+import CarouselPic9 from "../../images/pre2020/IMG_3830.jpg";
+import CarouselPic10 from "../../images/pre2020/IMG_3831.jpg";
+import CarouselPic11 from "../../images/pre2020/IMG_3832.jpg";
+import CarouselPic12 from "../../images/pre2020/IMG_3837.jpg";
+const Pre2020 = () => {
   return (
     <>
       <Swiper
-        effect={"cube"}
-        grabCursor={true}
-        cubeEffect={{
-          shadow: true,
-          slideShadows: true,
-          shadowOffset: 20,
-          shadowScale: 0.94,
-        }}
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
@@ -42,7 +32,7 @@ const HydrefsCarousel = () => {
         }}
         lazy={true}
         navigation={true}
-        modules={[Lazy, Pagination, Navigation, EffectCube]}
+        modules={[Lazy, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -93,17 +83,9 @@ const HydrefsCarousel = () => {
           <img src={CarouselPic12} className="swiper-lazy" alt="" />
           <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={CarouselPic13} className="swiper-lazy" alt="" />
-          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={CarouselPic14} className="swiper-lazy" alt="" />
-          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-        </SwiperSlide>
       </Swiper>
     </>
   );
 };
 
-export default HydrefsCarousel;
+export default Pre2020;

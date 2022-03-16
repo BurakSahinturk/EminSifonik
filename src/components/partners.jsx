@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import DrainPartnerPic from "../images/suzgecpartner.png";
 import PipePartnerPic from "../images/borupartner.png";
-import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
+import ScrollToTopOnMount from "./scrolltotoponmount";
 
 const Partners = () => {
   return (

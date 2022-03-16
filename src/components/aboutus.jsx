@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import IstCarousel from "./carousels/istcarousel";
-import Pre2020Carousel from "./carousels/pre202carousel";
-import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
+import Pre2020Carousel from "./carousels/pre2020carousel";
+import ScrollToTopOnMount from "./scrolltotoponmount";
 import HydrefsCarousel from "./carousels/hydrefscarousel";
 
 const AboutUs = () => {
@@ -9,13 +9,14 @@ const AboutUs = () => {
     <div className="m-3">
       <ScrollToTopOnMount />
       <br />
-      <h3 className="text-center">
+      <h2 className="text-center fs-1"> Kuruluşumuz </h2>
+      <p className="text-center fs-4">
         EMiN<span className="text-emin">SiFONiK</span> 2005 yılında Bursa'da
         Mahmut Şahintürk tarafından kuruldu. 17 yıldır Türkiye'nin dört bir
         tarafında, değişik sifonik yağmur suyu drenaj markasıyla bir çok
         endüstri yapısı, hastane ve konut dahil sayısız proje uygulaması
         gerçekleştirdik.
-      </h3>
+      </p>
       <div className="row">
         <div className="col-lg-3 col-sm-1"></div>
         <div className="col-lg-6 col-sm-10">

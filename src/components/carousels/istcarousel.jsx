@@ -1,6 +1,13 @@
-import React, { Component } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/effect-fade";
+
+import { Navigation, Pagination, Lazy, EffectFade } from "swiper";
 import CarouselPic1 from "../../images/ist/0af366f7-4bbb-48ad-b2f6-0d4f56d0520e.JPG";
 import CarouselPic2 from "../../images/ist/26fb8829-40d1-41c3-ba1b-44b8e416de66.JPG";
 import CarouselPic3 from "../../images/ist/8c436c50-fa71-4419-9bb7-cb2ce84d56d4.JPG";
@@ -13,59 +20,73 @@ import CarouselPic9 from "../../images/ist/WhatsApp Image 2022-03-11 at 23.05.01
 import CarouselPic10 from "../../images/ist/WhatsApp Image 2022-03-11 at 23.15.22 (1).jpeg";
 import CarouselPic11 from "../../images/ist/WhatsApp Image 2022-03-11 at 23.15.22.jpeg";
 import CarouselPic12 from "../../images/ist/WhatsApp Image 2022-03-11 at 23.17.51 (1).jpeg";
+const IstCarousel = () => {
+  return (
+    <>
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        effect={"fade"}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
+        lazy={true}
+        navigation={true}
+        modules={[Lazy, Pagination, Navigation, EffectFade]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src={CarouselPic1} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CarouselPic2} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CarouselPic3} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CarouselPic4} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CarouselPic5} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CarouselPic6} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CarouselPic7} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CarouselPic8} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CarouselPic9} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CarouselPic10} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CarouselPic11} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={CarouselPic12} className="swiper-lazy" alt="" />
+          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </SwiperSlide>
+      </Swiper>
+    </>
+  );
+};
 
-export default class IstCarousel extends Component {
-  render() {
-    return (
-      <Carousel autoPlay={true} infiniteLoop={true} verticalSwipe={"natural"}>
-        <div>
-          <img src={CarouselPic1} alt="İstanbul Havalimanından Kareler" />
-        </div>
-
-        <div>
-          <img src={CarouselPic2} alt="İstanbul Havalimanından Kareler" />
-        </div>
-
-        <div>
-          <img src={CarouselPic3} alt="İstanbul Havalimanından Kareler" />
-        </div>
-
-        <div>
-          <img src={CarouselPic4} alt="İstanbul Havalimanından Kareler" />
-        </div>
-
-        <div>
-          <img src={CarouselPic5} alt="İstanbul Havalimanından Kareler" />
-        </div>
-
-        <div>
-          <img src={CarouselPic6} alt="İstanbul Havalimanından Kareler" />
-        </div>
-
-        <div>
-          <img src={CarouselPic7} alt="İstanbul Havalimanından Kareler" />
-        </div>
-
-        <div>
-          <img src={CarouselPic8} alt="İstanbul Havalimanından Kareler" />
-        </div>
-
-        <div>
-          <img src={CarouselPic9} alt="İstanbul Havalimanından Kareler" />
-        </div>
-
-        <div>
-          <img src={CarouselPic10} alt="İstanbul Havalimanından Kareler" />
-        </div>
-
-        <div>
-          <img src={CarouselPic11} alt="İstanbul Havalimanından Kareler" />
-        </div>
-
-        <div>
-          <img src={CarouselPic12} alt="İstanbul Havalimanından Kareler" />
-        </div>
-      </Carousel>
-    );
-  }
-}
+export default IstCarousel;

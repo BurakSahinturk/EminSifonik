@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
+import ScrollToTopOnMount from "./scrolltotoponmount";
 
 const SystemDesign = () => {
   return (

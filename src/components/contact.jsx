@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
+import ScrollToTopOnMount from "./scrolltotoponmount";
 import AddIcon from "./svg/addicon.svg";
 import MailIcon from "./svg/mailicon.svg";
 import PhoneIcon from "./svg/phoneicon.svg";

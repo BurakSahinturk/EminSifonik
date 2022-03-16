@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ScrollToTopOnMount from "./carousels/scrolltotoponmount";
+import ScrollToTopOnMount from "./scrolltotoponmount";
 
 const WhySiphonic = () => {
   return (
@@ -7,6 +7,7 @@ const WhySiphonic = () => {
       <ScrollToTopOnMount />
       <h2 className="text-center">Neden Sifonik?</h2>
       <div className="row">
+        <div className="col-lg-1"></div>
         <div className="col-lg text-center ratio ratio-16x9">
           <iframe
             src="https://www.youtube.com/embed/VeBLkxgxuDc?rel=0"
@@ -17,6 +18,7 @@ const WhySiphonic = () => {
             className="d-flex"
           ></iframe>
         </div>
+        <div className="col-lg-1" style={{ height: "30px" }}></div>
         <div className="col-lg text-center ratio ratio-16x9">
           <iframe
             src="https://www.youtube.com/embed/5O0EDaZV8XE?rel=0"
@@ -27,6 +29,7 @@ const WhySiphonic = () => {
             className="d-flex"
           ></iframe>
         </div>
+        <div className="col-lg-1"></div>
       </div>
     </div>
   );

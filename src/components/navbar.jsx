@@ -1,9 +1,13 @@
 import React, { Component } from "react";
 import DropdownToggle from "react-bootstrap/esm/DropdownToggle";
 import { NavLink } from "react-router-dom";
+import SearchBox from "./searchbox";
 import ESLogo from "./svg/eminsifoniklogo.svg";
+import { useState } from "react";
 
 const NavBar = () => {
+  const [searchQuery] = useState("");
+  let handleSearch = {};
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div className="container-fluid" id="navbar">
@@ -87,17 +91,7 @@ const NavBar = () => {
               </NavLink>
             </li>
           </ul>
-          <form className="d-flex">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Ara"
-              aria-label="Ara"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              Ara
-            </button>
-          </form>
+          <SearchBox value={searchQuery} onChange={useState.handleSearch} />
         </div>
       </div>
     </nav>
