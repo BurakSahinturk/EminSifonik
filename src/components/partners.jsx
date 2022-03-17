@@ -19,28 +19,44 @@ const Partners = () => {
             <img
               src={DrainPartnerPic}
               alt="Sifonik Süzgeç Partneri"
-              width="200 px"
+              width="20%"
               className="mx-auto"
             />
-            <p className="caro-text text-decoration-none">Süzgeçler</p>
-            <img
-              src="http://www.hydromax.com/cms/images/products/terrace_drain_c.jpg"
-              alt="HydroMax Sifonik Süzgeçleri"
-              height="100 px"
-              className="my-2 mx-auto"
-            />
-            <p className="caro-text">
+            <p style={{ fontSize: "3vh", color: "black" }}>Süzgeçler</p>
+            <div className="mx-auto">
+              <img
+                src="http://www.hydromax.com/cms/images/products/terrace_drain_c.jpg"
+                alt="HydroMax Sifonik Süzgeçleri"
+                width="20%"
+                className="my-2 mx-3"
+              />
+              <img
+                src="http://www.hydromax.com/cms/images/products/stainless_steel_drain_c.jpg"
+                alt="HydroMax Sifonik Süzgeçleri"
+                width="20%"
+                className="my-2 mx-3"
+              />
+              <img
+                src="http://www.hydromax.com/cms/images/products/pvc_overflow_c.jpg"
+                alt="HydroMax Sifonik Süzgeçleri"
+                width="20%"
+                className="my-2 mx-3"
+              />
+            </div>
+            <p style={{ fontSize: "3vh", color: "black" }}>
               Emin Sifonik HydroMax Ürünlerinin Türkiye Distribütörüdür
             </p>
-            <p className="caro-text">
+            <p
+              style={{ fontSize: "3vh", color: "black", marginBottom: "-10%" }}
+            >
               Sifonik Sistemlerde en iyiye ulaşmak için HydroMax süzgeçleri
               kullanıyoruz
             </p>
             <img
               src="http://www.hydromax.com/images/logo.png"
               alt="HydroMax Sifonik Logosu"
-              width="370 px"
-              className="mx-auto img-fluid"
+              width="80%"
+              className="mx-auto my-0 img-fluid"
             />
           </a>
         </div>
@@ -54,25 +70,27 @@ const Partners = () => {
           >
             <img
               src={PipePartnerPic}
-              alt="Yağmur suyu Süzgeç Partneri"
-              width="200 px"
+              alt="Boru Partneri"
+              width="20%"
               className="mx-auto img-fluid"
             />
-            <p className="caro-text">Boru ve Fittingsler:</p>
+            <p style={{ fontSize: "3vh", color: "black" }}>
+              Boru ve Fittingsler:
+            </p>
             <img
               src="https://coescompany.com/eng/images/2017/01/26/slideiniziale.jpg"
               alt="Coes Boruları"
-              width="370 px"
+              width="60%"
               className="my-2 mx-auto img-fluid"
             />
-            <p className="caro-text">
+            <p style={{ fontSize: "3vh", color: "black" }}>
               Uyguladığımız sistemlerin güvenliğinden emin olmak için HDPE
               borularda dünya Lideri Coes ürünleri kullanıyoruz
             </p>
             <img
               src="http://coescompany.com/eng/images/2020/03/09/topnews2.png"
               alt="Coes Logo"
-              width="370 px"
+              width="60%"
               className="mx-auto img-fluid"
             />
           </a>

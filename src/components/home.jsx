@@ -14,7 +14,7 @@ const HomePage = () => {
   return (
     <div>
       <ScrollToTopOnMount />
-      <div className="container-fluid overflow-hidden">
+      <div className="container-fluid">
         <div className="row m-0 p-0">
           <div className="col-sm-5">
             <a href="http://www.hydromax.com">

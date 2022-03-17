@@ -8,7 +8,7 @@ const HomeWhyUs = () => {
       <img
         src={Drain3Pic}
         alt="Sifonik Yağmur Suyu Süzgeci"
-        className="img-fluid"
+        className="img-fluid w-100"
       />
       <div className="overlay">
         <NavLink className="nav-link overlay" to="/nedenbiz">

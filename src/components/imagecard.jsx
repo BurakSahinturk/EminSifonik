@@ -1,4 +1,12 @@
 import React, { Component } from "react";
+import img1 from "../images/drains/stainless_steel_drain_c.png";
+import img2 from "../images/drains/terrace_drain_c.png";
+import img3 from "../images/drains/balcony_outlet_1.png";
+import img4 from "../images/drains/75PDSS029.png";
+import img5 from "../images/drains/pvc_overflow_c.png";
+import img6 from "../images/drains/125_cropped.png";
+import img7 from "../images/drains/car_park_drain2.jpg";
+import img8 from "../images/drains/hydromax_leafguard.png";
 
 const ImageCard = (props) => {
   return (

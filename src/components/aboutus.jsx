@@ -6,11 +6,12 @@ import HydrefsCarousel from "./carousels/hydrefscarousel";
 
 const AboutUs = () => {
   return (
-    <div className="m-3">
+    <div className="m-3 container-fluid">
       <ScrollToTopOnMount />
-      <br />
-      <h2 className="text-center fs-1"> Kuruluşumuz </h2>
-      <p className="text-center fs-4">
+      <h2 className="text-center" style={{ fontSize: "6vh", margin: "4vh" }}>
+        Kuruluşumuz
+      </h2>
+      <p className="text-center" style={{ fontSize: "4vh", margin: "2vh" }}>
         EMiN<span className="text-emin">SiFONiK</span> 2005 yılında Bursa'da
         Mahmut Şahintürk tarafından kuruldu. 17 yıldır Türkiye'nin dört bir
         tarafında, değişik sifonik yağmur suyu drenaj markasıyla bir çok
@@ -24,9 +25,7 @@ const AboutUs = () => {
         </div>
         <div className="col-lg-3 col-sm-1"></div>
       </div>
-      <br />
-      <br />
-      <h3 className="text-center">
+      <h3 className="text-center" style={{ fontSize: "4vh", margin: "2vh" }}>
         2020 yılında Emin Sifonik'in en prestijli projesi İstanbul Havalimanı
         geldi
       </h3>
@@ -38,10 +37,7 @@ const AboutUs = () => {
         </div>
         <div className="col-lg-3 col-sm-1"></div>
       </div>
-
-      <br />
-      <br />
-      <h3 className="text-center">
+      <h3 className="text-center" style={{ fontSize: "4vh", margin: "2vh" }}>
         2022 yılında ise sifonikte dünya lideri HydroMax® ürünleri kullanmaya
         başladık. HydroMax® dünyanın dört bir yanında milyonlarca kilometre kare
         çatı alanında uygulanmış, dünya lideri markadır.

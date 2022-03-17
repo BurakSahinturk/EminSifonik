@@ -17,6 +17,8 @@ const NavBar = () => {
         <button
           className="navbar-toggler"
           type="button"
+          id="navbarmainbtn"
+          role="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"

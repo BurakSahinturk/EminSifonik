@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import WhoAreWePic from "../images/mahmutsahinturk.jpeg";
+import WhoAreWePic from "../images/mahmut_sahinturk.jpeg";
 
 const HomeAbout = () => {
   return (
