@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Walmart1 from "../../images/hydromax/walmart1.jpg";
-import Walmart2 from "../../images/hydromax/walmart2.jpg";
-import Walmart3 from "../../images/hydromax/wal-mart_grand_haven,_mi_.jpg";
+import Walmart1 from "../../images/hydrefs/Resim01.png";
+import Walmart2 from "../../images/hydrefs/TDSCN0805.JPG";
+import Walmart3 from "../../images/hydrefs/wal-mart_grand_haven,_mi_.jpg";
 
 const WhyUsReferences = () => {
   return (
@@ -9,7 +9,7 @@ const WhyUsReferences = () => {
       style={{
         color: "white",
         backgroundColor: "#2aabe1",
-        fontSize: "2.5vh",
+        fontSize: "2.9vh",
         border: "4px solid white",
         borderRadius: "3vmin",
         height: "100%",
@@ -74,19 +74,22 @@ const WhyUsReferences = () => {
           className="text-decoration-none text-black"
         >
           *
-        </a>
+        </a>{" "}
         Sadece HydroMax® kullanıyor.
       </h3>
       <div>
         Walmart'tan Mimar Todd Franke'nin yaptığı resmi açıklama:
-        <p className="fst-italic" style={{ textIndent: "2em" }}>
+        <p
+          className="fst-italic"
+          style={{ textIndent: "2em", marginBottom: "0px" }}
+        >
           "Walmart uses HydroMax siphonic roof drains and continues to use
           HydroMax roof drains as a part of our building prototype construction
           documents. In general, Walmart just states the obvious and let’s
           others draw their conclusions, which would be if the World’s largest
           retailer uses this system it must work."
         </p>
-        <p style={{ textIndent: "2em" }}>
+        <p style={{ textIndent: "2em", marginTop: "0px" }}>
           "Walmart tip mağaza inşaat projesinde HydroMax süzgeçlerini kullanıyor
           ve kullanmaya devam edecek. Genel olarak, bariz olan şu gerçeğe işaret
           etmek isteriz ki: Dünyanın en büyük perakendecisi bu sistemi
@@ -116,7 +119,7 @@ const WhyUsReferences = () => {
       <p
         style={{
           color: "white",
-          fontSize: "2.5vh",
+          fontSize: "2.9vh",
         }}
       >
         HydroMax®'ın kullanıldığı diğer binlerce yapıdan örnekleri görmek için{" "}

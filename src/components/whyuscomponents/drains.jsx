@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
 const WhyUsDrains = () => {
+  let highlightText = "palegreen";
   return (
     <div
       style={{
@@ -36,19 +37,12 @@ const WhyUsDrains = () => {
         ® Süzgeçleri rakiplerinin aynı kapasitedeki ürünlerine göre;
         <li>Daha ekonomiktir</li>
         <li>
-          Daha ufak boyutludur, daha dar derelere sığabilirler:
-          <span
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            className="badge btn-primary bg-secondary"
-            title="25lt/sn
-        kapasiteye sahip bir HydroMax® süzgeci 23cm çapa sahipken en yakın
-        rakibi 26cm çaplıdır. Rakiplerinin en küçük çaplı süzgeci 19cm
-        iken 14cm kadar küçük boyutlarda HydroMax® süzgeçleri
-        bulunmaktadır. "
-          >
-            Detay için buraya basın
-          </span>
+          Daha ufak boyutludur, daha dar derelere sığabilirler: 25lt/sn
+          kapasiteye sahip bir HydroMax® süzgeci{" "}
+          <span style={{ color: { highlightText } }}>23cm çap</span>a sahipken
+          en yakın rakibi 26cm çaplıdır. Rakiplerinin en küçük çaplı süzgeci
+          19cm iken <span style={{ color: { highlightText } }}>14cm</span> kadar
+          küçük boyutlarda HydroMax® süzgeçleri bulunmaktadır.
         </li>
         <li>
           Daha verimlidir, aynı akış miktarını çok daha az göllenme ile sağlar.
@@ -56,6 +50,11 @@ const WhyUsDrains = () => {
         </li>
         <li>Daha uzun ömürlüdür</li>
         <li>Daha estetik görünümlüdür</li>
+        <li>
+          Test edildiler, her koşulda test edildiler. Ve sadece çalışıyorlar mı
+          çalışmıyorlar mı bakmak için değil, ne kadar su iletiyorlar, hangi
+          basınçla iletiyorlar hepsi bilimsel olarak dokümanlandı.
+        </li>
       </ul>
       <NavLink
         className="nav-link text-white"

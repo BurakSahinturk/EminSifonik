@@ -39,6 +39,12 @@ const WhyUsHydrotechnic = () => {
         yapılır. HydroTechnic® rakiplerine göre;
         <li>Daha kesin hesaplar yapabilir</li>
         <li>
+          Hata Yapmaz. Süzgeçlerimizin tüm sifonik değerlerini kesin olarak
+          bilebildiğimiz için, rakiplerin tamamen kör atışla yaptıkları ve bir
+          çok zaman sistemin çökmesiyle sonuçlanan hatalar HydroTechnic® ile
+          yapılmaz
+        </li>
+        <li>
           Hesaplarını normal şartlara göre değil, ekstrem koşullara göre yapar.
           Bu sayede bozulma/kırılma/patlama gibi aksaklıklar ve masraflar
           asgariye iner
@@ -84,7 +90,17 @@ const WhyUsHydrotechnic = () => {
         <li>
           Kullandığı tüm üstün standartlara rağmen keskin hesap gücüyle,
           rakiplerinin güvenli tarafta kalmak için yaptığı aşırı kullanımlara
-          ihtiyaç duymadan daha ekonomik çözümler sunar
+          ihtiyaç duymadan daha ekonomik çözümler sunar. Bazen daha güvenli
+          çözümler daha küçük çaplı borular kullanılarak sağlanır. Hangi
+          durumlar olduğunu bilmek için keskin hesap gücü gerekir. Bu sayede
+          bazen hem daha ekonomik hem de aynı zamanda daha güvenli sonuca sadece
+          HydroTechnic® ulaşır.
+        </li>
+        <li>
+          Sağlıklı sonuçlar almak adına, hangi boru ve fittingslerin
+          kullanılacağını belirler. Askı sistemleri konusunda ise uygulayıcıyı
+          serbest bırakır. Bu sayede askılama maliyetlerinde %90'a varan
+          azalmalar sağlanır.
         </li>
         <li>
           Ön üretim şemalarını otomatik olarak hazırlayarak hem üretimi
