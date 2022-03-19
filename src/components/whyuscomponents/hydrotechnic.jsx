@@ -15,7 +15,10 @@ const WhyUsHydrotechnic = () => {
         height: "100%",
       }}
     >
-      <h2 className="text-white m-2" style={{ fontSize: "4.5vh" }}>
+      <h2
+        className="text-white m-2 text-lg-center"
+        style={{ fontSize: "4.5vh" }}
+      >
         <a
           href="http://www.hydromax.com/"
           target="_blank"

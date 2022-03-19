@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
 const WhyUsDrains = () => {
-  let highlightText = "palegreen";
   return (
     <div
       style={{
@@ -39,10 +38,10 @@ const WhyUsDrains = () => {
         <li>
           Daha ufak boyutludur, daha dar derelere sığabilirler: 25lt/sn
           kapasiteye sahip bir HydroMax® süzgeci{" "}
-          <span style={{ color: { highlightText } }}>23cm çap</span>a sahipken
-          en yakın rakibi 26cm çaplıdır. Rakiplerinin en küçük çaplı süzgeci
-          19cm iken <span style={{ color: { highlightText } }}>14cm</span> kadar
-          küçük boyutlarda HydroMax® süzgeçleri bulunmaktadır.
+          <span style={{ color: "palegreen" }}>23cm çap</span>a sahipken en
+          yakın rakibi 26cm çaplıdır. Rakiplerinin en küçük çaplı süzgeci 19cm
+          iken <span style={{ color: "palegreen" }}>14cm</span> kadar küçük
+          boyutlarda HydroMax® süzgeçleri bulunmaktadır.
         </li>
         <li>
           Daha verimlidir, aynı akış miktarını çok daha az göllenme ile sağlar.

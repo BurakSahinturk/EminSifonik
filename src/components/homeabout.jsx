@@ -10,10 +10,9 @@ const HomeAbout = () => {
         alt="Emin Sifonik Kimdir Mahmut Şahintürk"
         className="img-fluid w-100"
       />
+      <div className="overlay-text">Biz kimiz?</div>
       <div className="overlay">
-        <NavLink className="nav-link overlay" to="/hakkimizda">
-          <div className="overlay-text">Biz kimiz?</div>
-        </NavLink>
+        <NavLink className="nav-link overlay" to="/hakkimizda"></NavLink>
       </div>
     </div>
   );

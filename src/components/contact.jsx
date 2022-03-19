@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className="text-center m-3">
       <ScrollToTopOnMount />
-      <h2 className="fs-1">İletişim Bilgileri</h2>
+      <h2 className="fs-1">Emin Sifonik İletişim Bilgileri</h2>
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm my-4 text-center order-2 order-sm-1">

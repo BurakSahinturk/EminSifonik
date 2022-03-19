@@ -6,7 +6,7 @@ import HydrefsCarousel from "./carousels/hydrefscarousel";
 
 const AboutUs = () => {
   return (
-    <div className="m-3 container-fluid">
+    <div className="container-fluid">
       <ScrollToTopOnMount />
       <h2 className="text-center" style={{ fontSize: "6vh", margin: "4vh" }}>
         Kuruluşumuz

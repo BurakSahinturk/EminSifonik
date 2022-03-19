@@ -10,10 +10,9 @@ const HomeWhySiphonic = () => {
         alt="Sifonik Yağmur Suyu Süzgeci"
         className="img-fluid w-100"
       />
+      <div className="overlay-text">Neden Sifonik?</div>
       <div className="overlay">
-        <NavLink className="nav-link overlay" to="/nedensifonik">
-          <div className="overlay-text">Neden Sifonik?</div>
-        </NavLink>
+        <NavLink className="nav-link overlay" to="/nedensifonik"></NavLink>
       </div>
     </div>
   );

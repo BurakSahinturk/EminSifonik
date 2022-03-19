@@ -10,10 +10,11 @@ const HomeContact = () => {
         alt="Emin Sifonikle İletişime geçin"
         className="img-fluid w-100"
       />
+      <div className="overlay-text text-emin">
+        Fiyat Teklifi için bize ulaşın
+      </div>
       <div className="overlay">
-        <NavLink className="nav-link overlay" to="/iletisim">
-          <div className="overlay-text">Fiyat Teklifi için bize ulaşın</div>
-        </NavLink>
+        <NavLink className="nav-link overlay" to="/iletisim"></NavLink>
       </div>
     </div>
   );

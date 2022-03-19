@@ -89,7 +89,7 @@ const Partners = () => {
             </p>
             <img
               src="http://coescompany.com/eng/images/2020/03/09/topnews2.png"
-              alt="Coes Logo"
+              alt="Coes Company Logo"
               width="60%"
               className="mx-auto img-fluid"
             />

@@ -13,6 +13,7 @@ import img8 from "../images/drains/hydromax_leafguard.png";
 const Drains = () => {
   return (
     <div className="container-fluid text-center">
+      <h2 className="mt-3">HydroMax® Sifonik Süzgeçleri</h2>
       <ScrollToTopOnMount />
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 p-3">
         <ImageCard

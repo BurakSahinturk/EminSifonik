@@ -4,6 +4,7 @@ import ScrollToTopOnMount from "./scrolltotoponmount";
 import PipeComparison from "../images/pipecomparison.png";
 import HydroTechnicPic from "../images/services/hydrotechnic.jpg";
 import Walmart2 from "../images/hydrefs/TDSCN0805.JPG";
+import HydroTechnicPic2 from "../images/hydrotechnic2.png";
 
 const SystemDesign = () => {
   return (
@@ -17,8 +18,8 @@ const SystemDesign = () => {
         >
           <img
             src={PipeComparison}
-            class="float-md-end m-3"
-            alt="Caption from the software: HydroTechnic"
+            className="float-md-end m-3"
+            alt="Sifonik sistem faydası diyagram"
             height="300vh"
           />
           <h3>Çözüm Bizde!</h3>
@@ -45,7 +46,7 @@ const SystemDesign = () => {
         >
           <img
             src={HydroTechnicPic}
-            class="float-md-start m-3"
+            className="float-md-start m-3"
             alt="Caption from the software: HydroTechnic"
             height="300vh"
           />
@@ -67,13 +68,51 @@ const SystemDesign = () => {
         </div>
         <hr />
         <div
-          className="bg-light clearfix"
-          style={{ borderRadius: "30px", padding: "10px" }}
+          className="bg-light clearfix overflow-hidden"
+          style={{
+            borderRadius: "30px",
+            padding: "10px",
+            maxWidth: "92vw",
+          }}
+        >
+          <img
+            src={HydroTechnicPic2}
+            className="float-md-end m-3"
+            alt="Caption from the software: HydroTechnic"
+            height="300vh"
+          />
+          <h3>Projenizi hazırlamak için hangi veriler gerekli?</h3>
+          <ul style={{ listStylePosition: "inside" }}>
+            <li>
+              Projenin Konumu (Tasarım Yağış miktarının belirlenmesi için)
+            </li>
+            <li>Çatı Planları</li>
+            <li>Kat Planları (Borulama güzergahının kontrolü için)</li>
+            <li>Mekanik Projeler (Çakışmaları engellemek için)</li>
+            <li>Kesit ve Görünüşler</li>
+            <li>Kanalizasyon Bağlantıları</li>
+            <li>Yağmur Suyu Hasat / Uzaklaştırma Gereksinimleri</li>
+            <li>Oluk Profili (Uyumluluk kontrolleri için)</li>
+            Sistem tasarımı, fiyatlandırma ve diğer detaylar için bizimle
+            dilediğiniz zaman iletişime geçebilirsiniz
+          </ul>
+          <NavLink className="nav-link fs-3 p-0 text-emin" to="/iletisim">
+            İletişim Bilgilerimiz için buraya basın!
+          </NavLink>
+        </div>
+        <hr />
+        <div
+          className="bg-light clearfix overflow-hidden"
+          style={{
+            borderRadius: "30px",
+            padding: "10px",
+            maxWidth: "92vw",
+          }}
         >
           <img
             src={Walmart2}
-            class="float-md-end m-3"
-            alt="Caption from the software: HydroTechnic"
+            className="float-md-start m-3"
+            alt="Walmart Sifonik Referans"
             height="300vh"
           />
           <h3>Tekrar: Çözüm bizde</h3>

@@ -10,10 +10,9 @@ const HomeWhyUs = () => {
         alt="Sifonik Yağmur Suyu Süzgeci"
         className="img-fluid w-100"
       />
+      <div className="overlay-text">Neden Biz?</div>
       <div className="overlay">
-        <NavLink className="nav-link overlay" to="/nedenbiz">
-          <div className="overlay-text">Neden Biz?</div>
-        </NavLink>
+        <NavLink className="nav-link overlay" to="/nedenbiz"></NavLink>
       </div>
     </div>
   );

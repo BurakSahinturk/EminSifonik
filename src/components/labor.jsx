@@ -6,7 +6,7 @@ const Labor = () => {
   return (
     <div className="m-3 fs-4">
       <ScrollToTopOnMount />
-      <h2 className="fs-1">Uygulama</h2>
+      <h2 className="fs-1">Sifonik İşleri Uygulaması</h2>
       <h3>Tecrübe</h3>
       <p>
         En iyi ürünler ve en yetkin projelendirmenin yanında deneyimli ve
