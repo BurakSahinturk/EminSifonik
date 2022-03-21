@@ -14,6 +14,7 @@ import WhySiphonic from "./components/whysiphonic";
 import SystemDesign from "./components/systemdesign";
 import Labor from "./components/labor";
 import Drains from "./components/drains";
+// import DrainsList from "./drainslist";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,6 +27,7 @@ ReactDOM.render(
           <Route path="nedenbiz" element={<WhyUs />} />
           <Route path="partnerlerimiz" element={<Partners />} />
           <Route path="suzgecler" element={<Drains />} />
+          {/* <Route path="suzgectablosu" element={<DrainsList />} /> */}
           <Route path="projelendirme" element={<SystemDesign />} />
           <Route path="uygulama" element={<Labor />} />
           <Route path="iletisim" element={<Contact />} />

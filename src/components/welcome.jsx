@@ -4,7 +4,7 @@ const Welcome = () => {
   return (
     <div className="text-wrap cotainer-fluid m-2 text-center">
       <div className="row">
-        <h2 className="text-white text-center pt-2">Sifonik Drenajda Lider</h2>
+        <h1 className="text-white text-center pt-2">Sifonik Drenajda Lider</h1>
         <p className="text-wrap fw-light">
           2005 yılından itibaren Tükiye'nin dört bir yanında Sifonik Yağmur Suyu
           Drenaj Çözümleri sunan Emin Sifonik 2022 yılı itibariyle Tükiye Genel
@@ -14,9 +14,7 @@ const Welcome = () => {
           </a>
           ® ile çok daha güçlü
         </p>
-        <h2 className="text-white text-center">
-          En İyi Performans Uygun Fiyata
-        </h2>
+        <h2 className="text-white text-center">Uygun Fiyatlı Sifonik Sistem</h2>
         <p className="text-wrap fw-light">
           <a className="text-white" href="http://www.hydromax.com/">
             HydroMax

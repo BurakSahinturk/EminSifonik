@@ -8,23 +8,17 @@ const WhySiphonic = () => {
       <h2 className="text-center">Sifonik Sistem Nedir? Nasıl Çalışır?</h2>
       <div className="row my-3">
         <div className="col-lg-2"></div>
-        <div className="col-lg-8 text-center">
+        <div
+          className="col-lg text-center ratio ratio-4x3"
+          style={{ maxHeight: "80vh" }}
+        >
           <iframe
-            src="https://onedrive.live.com/embed?cid=06CD78FE24EE5287&amp;resid=6CD78FE24EE5287%21214&amp;authkey=AIb22oGmPWUHyAA&amp;em=2&amp;wdAr=1.3333333333333333"
-            width="640px"
-            height="480px"
+            src="https://docs.google.com/presentation/d/e/2PACX-1vSMWDSU0dv0cIO0Z9EmVhdr36XcPJce0K8Xl1LmjUkNByAa9xlaou3bunlzU4jGQA/embed?start=true&loop=false&delayms=5000"
             frameBorder="0"
-          >
-            Bu{" "}
-            <a target="_blank" href="https://office.com/webapps">
-              Office
-            </a>{" "}
-            tarafından sağlanan eklenmiş bir{" "}
-            <a target="_blank" href="https://office.com">
-              Microsoft Office
-            </a>{" "}
-            belgesidir.
-          </iframe>
+            allowFullScreen={true}
+            mozAllowFullScreen={true}
+            webkitAllowFullScreen={true}
+          />
         </div>
         <div className="col-lg-2"></div>
       </div>

@@ -5,10 +5,8 @@ import ESLogo from "./svg/eminsifoniklogo.svg";
 import { useState } from "react";
 
 window.addEventListener("click", function (e) {
-  if (window.innerWidth < 992) {
-    if (e.target.id == !"navbarDropdown") {
-      document.getElementById("navbarmainbtn").click();
-    }
+  if (e.target.id == !"navbarDropdown" && this.window.innerWidth < 992) {
+    document.getElementById("navbarmainbtn").click();
   }
 });
 
@@ -16,9 +14,6 @@ const NavBar = () => {
   const [searchQuery] = useState("");
   let handleSearch = {};
 
-  // document.getElementById.on("click", function () {
-  //  document.getElementById(".navbar .collapse").collapse("hide");
-  //});
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div className="container-fluid" id="navbar">
@@ -40,7 +35,7 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-lg-center">
-            <div className="vr d-none d-md-block"></div>
+            <div className="vr d-none d-lg-block"></div>
             <li className="nav-item">
               <NavLink className="nav-link" to="/hakkimizda">
                 Hakkımızda

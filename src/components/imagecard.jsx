@@ -19,10 +19,10 @@ const ImageCard = (props) => {
         />
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
-          <p className="mb-0">
+          <p className="mb-0" style={{ fontSize: "smaller" }}>
             {"Min: " + props.min + "lt/sn Max: " + props.max + "lt/sn"}
           </p>
-          <p>Boyut: Ø{props.size} mm</p>
+          <p style={{ fontSize: "smaller" }}>Boyut: Ø{props.size} mm</p>
           <p className="card-text">{props.text}</p>
         </div>
         <div className="card-footer">
