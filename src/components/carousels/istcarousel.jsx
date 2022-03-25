@@ -17,7 +17,6 @@ import CarouselPic6 from "../../images/ist/IMG_2862.jpg";
 import CarouselPic7 from "../../images/ist/istanbul-havalimani-anket_8910.jpg";
 import CarouselPic8 from "../../images/ist/WhatsApp Image 2022-03-11 at 23.03.18.jpeg";
 import CarouselPic9 from "../../images/ist/WhatsApp Image 2022-03-11 at 23.05.01.jpeg";
-import CarouselPic10 from "../../images/ist/WhatsApp Image 2022-03-11 at 23.15.22 (1).jpeg";
 import CarouselPic11 from "../../images/ist/WhatsApp Image 2022-03-11 at 23.15.22.jpeg";
 import CarouselPic12 from "../../images/ist/WhatsApp Image 2022-03-11 at 23.17.51 (1).jpeg";
 const IstCarousel = () => {
@@ -70,10 +69,6 @@ const IstCarousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={CarouselPic9} className="swiper-lazy" alt="" />
-          <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={CarouselPic10} className="swiper-lazy" alt="" />
           <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </SwiperSlide>
         <SwiperSlide>
