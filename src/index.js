@@ -14,7 +14,6 @@ import WhySiphonic from "./components/whysiphonic";
 import SystemDesign from "./components/systemdesign";
 import Labor from "./components/labor";
 import Drains from "./components/drains";
-// import DrainsList from "./drainslist";
 
 ReactDOM.render(
   <React.StrictMode>

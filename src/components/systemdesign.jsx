@@ -12,6 +12,9 @@ const SystemDesign = () => {
       <div className="fs-4">
         <ScrollToTopOnMount />
         <h2 className="fs-1 text-center">Sifonik Sistem Çözümü</h2>
+        <h2 className="fs-1 text-center">
+          En İyi Sifonik Sistem Hesap Programı: HydroTechnic™
+        </h2>
         <div
           className="bg-light clearfix"
           style={{ borderRadius: "30px", padding: "10px" }}
@@ -50,16 +53,16 @@ const SystemDesign = () => {
             alt="Caption from the software: HydroTechnic"
             height="300vh"
           />
-          <h3>Farkımız: HydroTechnic®</h3>
+          <h3>Farkımız: HydroTechnic™</h3>
           <p>
             Drenajı hem uygun, sessiz ve hızlı, hem de ekonomik bir şekilde
             yapabilmek için HydroMax'ın bağımsız kuruluşlarca denetlenip
-            onaylanan, rakiplerinden üstünlüğünü kanıtlamış HydroTechnic®
+            onaylanan, rakiplerinden üstünlüğünü kanıtlamış HydroTechnic™
             yazılımını kullanıyoruz.
           </p>
           <h3>Neden HydroTechnic®?</h3>
           <p>
-            HydroTechnic® rakiplerinden çok daha efektif ve dolayısıyla ekonomik
+            HydroTechnic™ rakiplerinden çok daha efektif ve dolayısıyla ekonomik
             sonuçlar çıkartan üstün bir yazılımdır.
           </p>
           <NavLink className="nav-link fs-3 p-0 text-emin" to="/nedenbiz">

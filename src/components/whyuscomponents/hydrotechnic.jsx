@@ -29,6 +29,7 @@ const WhyUsHydrotechnic = () => {
         </a>
         ® Sisteminin Üstün Yanları:
       </h2>
+      <h3>Sifonik sistem hesap programımız: HydroTechnic™</h3>
       <ul style={{ listStylePosition: "inside" }}>
         <a
           href="http://www.hydromax.com/"
@@ -38,22 +39,23 @@ const WhyUsHydrotechnic = () => {
         >
           HydroMax
         </a>
-        ® Sifonik Sistem Tasarımları, tescilli yazılımı HydroTechnic® ile
-        yapılır. HydroTechnic® rakiplerine göre;
-        <li>Daha kesin hesaplar yapabilir</li>
+        ® Sifonik Sistem Tasarımları, tescilli yazılımı HydroTechnic™ ile
+        yapılır.
+        <li>HydroTechnic™ rakipilerine göre daha kesin hesaplar yapabilir</li>
         <li>
-          Hata Yapmaz. Süzgeçlerimizin tüm sifonik değerlerini kesin olarak
-          bilebildiğimiz için, rakiplerin tamamen kör atışla yaptıkları ve bir
-          çok zaman sistemin çökmesiyle sonuçlanan hatalar HydroTechnic® ile
-          yapılmaz
+          HydroTechnic™ hata Yapmaz. Süzgeçlerimizin tüm sifonik değerlerini
+          kesin olarak bilebildiğimiz için, rakiplerin tamamen kör atışla
+          yaptıkları ve bir çok zaman sistemin çökmesiyle sonuçlanan hatalar
+          HydroTechnic™ ile yapılmaz
         </li>
         <li>
-          Hesaplarını normal şartlara göre değil, ekstrem koşullara göre yapar.
-          Bu sayede bozulma/kırılma/patlama gibi aksaklıklar ve masraflar
-          asgariye iner
+          Sifonik sistem hesap programımız HydroTechnic™, hesaplarını normal
+          şartlara göre değil, ekstrem koşullara göre yapar. Bu sayede
+          bozulma/kırılma/patlama gibi aksaklıklar ve masraflar asgariye iner
         </li>
         <li>
-          Hesaplarını Avrupa Standartlarından bile daha yüksek olan:
+          HydroTechnic™ hesaplarını Avrupa Standartlarından bile daha yüksek
+          olan:
           <ul>
             <li>
               Birleşik Krallık (BS 8490:2007){" "}
@@ -109,8 +111,9 @@ const WhyUsHydrotechnic = () => {
           Ön üretim şemalarını otomatik olarak hazırlayarak hem üretimi
           hızlandırır hem de hata riskini azaltır
         </li>
-        En iyi sifonik sistem ürünleri ve en kaliteli sistem tasarımları için
-        bizimle iletişime geçin
+        En iyi sifonik sistem ürünleri ve en kaliteli sistem tasarımlarını en
+        iyi sifonik sistem hesap programı ile yapmak için bizimle iletişime
+        geçin
       </ul>
       <NavLink
         className="nav-link text-white"

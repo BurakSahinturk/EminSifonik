@@ -1,108 +1,79 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
-import SearchBox from "./searchbox";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import Nav from "react-bootstrap/Nav";
 import ESLogo from "./svg/eminsifoniklogo.svg";
-import { useState } from "react";
-
-window.addEventListener("click", function (e) {
-  if (e.target.id == !"navbarDropdown" && this.window.innerWidth < 992) {
-    document.getElementById("navbarmainbtn").click();
-  }
-});
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
-  const [searchQuery] = useState("");
-  let handleSearch = {};
-
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <div className="container-fluid" id="navbar">
-        <NavLink className="navbar-brand" to="/">
-          <img src={ESLogo} alt="Emin Sifonik Ana Sayfa" width="200px" />
-        </NavLink>
-        <button
-          className="navbar-toggler"
-          type="button"
-          id="navbarmainbtn"
-          role="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-lg-center">
-            <div className="vr d-none d-lg-block"></div>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/hakkimizda">
+    <Navbar collapseOnSelect expand="lg" bg="light" sticky="top">
+      <div className="container-fluid">
+        <Navbar.Brand href="#">
+          <NavLink className="navbar-brand p-0 m-0" to="/">
+            <img src={ESLogo} alt="Emin Sifonik Ana Sayfa" width="200px" />
+          </NavLink>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <div className="vr d-none d-lg-block"></div>
+          <Nav className="me-auto">
+            <Nav.Link href="#">
+              <NavLink className="nav-link py-0 my-0" to="/hakkimizda">
                 Hakkımızda
               </NavLink>
-            </li>
+            </Nav.Link>
             <div className="vr d-none d-lg-block"></div>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/nedensifonik">
+            <Nav.Link href="#">
+              <NavLink className="nav-link py-0 my-0" to="/nedensifonik">
                 Neden Sifonik
               </NavLink>
-            </li>
+            </Nav.Link>
             <div className="vr d-none d-lg-block"></div>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/nedenbiz">
+            <Nav.Link href="#">
+              <NavLink className="nav-link py-0 my-0" to="/nedenbiz">
                 Neden Biz
               </NavLink>
-            </li>
+            </Nav.Link>
             <div className="vr d-none d-lg-block"></div>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/partnerlerimiz">
+            <Nav.Link href="#">
+              <NavLink className="nav-link py-0 my-0" to="/partnerlerimiz">
                 Partnerlerimiz
               </NavLink>
-            </li>
+            </Nav.Link>
             <div className="vr d-none d-lg-block"></div>
-            <li className="nav-item dropdown">
-              <div
-                className="nav-link dropdown-toggle"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Hizmetlerimiz
-              </div>
-              <ul
-                className="dropdown-menu bg-light"
-                aria-labelledby="navbarDropdown"
-              >
-                <li>
-                  <NavLink className="dropdown-item" to="/suzgecler">
-                    Süzgeçler
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="dropdown-item" to="/projelendirme">
-                    Sistem Tasarımı
-                  </NavLink>
-                </li>
-                <li></li>
-                <li>
-                  <NavLink className="dropdown-item" to="/uygulama">
-                    Uygulama
-                  </NavLink>
-                </li>
-              </ul>
-            </li>
+            <NavDropdown
+              className="py-0 my-0"
+              title="Hizmetlerimiz"
+              id="collasible-nav-dropdown"
+            >
+              <NavDropdown.Item href="#">
+                <NavLink className="dropdown-item" to="/suzgecler">
+                  Süzgeçler
+                </NavLink>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#">
+                <NavLink className="dropdown-item" to="/projelendirme">
+                  Sistem Tasarımı
+                </NavLink>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#">
+                <NavLink className="dropdown-item" to="/uygulama">
+                  Uygulama
+                </NavLink>
+              </NavDropdown.Item>
+            </NavDropdown>
             <div className="vr d-none d-lg-block"></div>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/iletisim">
+            <Nav.Link href="#">
+              <NavLink className="nav-link py-0 my-0" to="/iletisim">
                 İletişim
               </NavLink>
-            </li>
-          </ul>
-          <SearchBox value={searchQuery} onChange={useState.handleSearch} />
-        </div>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </div>
-    </nav>
+    </Navbar>
   );
 };
 
