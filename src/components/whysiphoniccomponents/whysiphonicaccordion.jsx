@@ -143,6 +143,65 @@ const WhySiphonicAccordion = () => {
           sulama masraflarını asgariye indirebilirsiniz.
         </Accordion.Body>
       </Accordion.Item>
+
+      <Accordion.Item eventKey="7">
+        <Accordion.Header>
+          <p className="fs-4 m-0 p-0">
+            Sifonik Sistem Nasıl Çalışır? - HydroMax Sunumu
+          </p>
+        </Accordion.Header>
+        <Accordion.Body className="fs-4">
+          <div className="row my-3">
+            <div className="col-lg-2"></div>
+            <div
+              className="col-lg text-center ratio ratio-4x3"
+              style={{ maxHeight: "80vh" }}
+            >
+              <iframe
+                src="https://docs.google.com/presentation/d/e/2PACX-1vSMWDSU0dv0cIO0Z9EmVhdr36XcPJce0K8Xl1LmjUkNByAa9xlaou3bunlzU4jGQA/embed?start=true&loop=false&delayms=5000"
+                frameBorder="0"
+                allowFullScreen={true}
+                mozllowfullscreen="true"
+                webkitallowfullscreen="true"
+              />
+            </div>
+            <div className="col-lg-2"></div>
+          </div>
+        </Accordion.Body>
+      </Accordion.Item>
+
+      <Accordion.Item eventKey="8">
+        <Accordion.Header>
+          <p className="fs-4 m-0 p-0">
+            Sifonik Sistem Nasıl Çalışır? - Videolar
+          </p>
+        </Accordion.Header>
+        <Accordion.Body className="fs-4">
+          <div className="row my-3">
+            <div className="col-lg-1"></div>
+            <div className="col-lg text-center ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/VeBLkxgxuDc?rel=0"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                className="d-flex"
+              ></iframe>
+            </div>
+            <div className="col-lg-1" style={{ height: "30px" }}></div>
+            <div className="col-lg text-center ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/5O0EDaZV8XE?rel=0"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                className="d-flex"
+              ></iframe>
+            </div>
+            <div className="col-lg-1"></div>
+          </div>
+        </Accordion.Body>
+      </Accordion.Item>
     </Accordion>
   );
 };

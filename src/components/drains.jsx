@@ -9,6 +9,8 @@ import img5 from "../images/drains/pvc_overflow_c.png";
 import img6 from "../images/drains/125_cropped.png";
 import img7 from "../images/drains/car_park_drain2.jpg";
 import img8 from "../images/drains/hydromax_leafguard.png";
+import Button from "react-bootstrap/Button";
+import { NavLink } from "react-router-dom";
 
 const Drains = () => {
   return (
@@ -88,6 +90,17 @@ const Drains = () => {
           min="1,5"
           max="25"
         />
+      </div>
+      <div className="row">
+        <div className="col">
+          <div className="d-grid mx-3">
+            <Button variant="primary" size="lg">
+              <NavLink className="nav-link text-white" to="/suzgectablosu">
+                Tüm Süzgeçlerimizin Detaylı Listesi
+              </NavLink>
+            </Button>
+          </div>
+        </div>
       </div>
     </div>
   );
