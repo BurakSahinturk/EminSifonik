@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import ScrollToTopOnMount from "./scrolltotoponmount";
 import ImageCard from "./imagecard";
 import img1 from "../images/drains/stainless_steel_drain_c.png";
@@ -14,7 +14,7 @@ import { NavLink } from "react-router-dom";
 
 const Drains = () => {
   return (
-    <div className="container-fluid text-center">
+    <main className="container-fluid text-center">
       <h2 className="mt-3">HydroMax® Sifonik Süzgeçleri</h2>
       <ScrollToTopOnMount />
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 p-3">
@@ -102,7 +102,7 @@ const Drains = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

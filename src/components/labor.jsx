@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import ScrollToTopOnMount from "./scrolltotoponmount";
 
 const Labor = () => {
   return (
-    <div className="m-3 fs-4">
+    <main className="m-3 fs-4">
       <ScrollToTopOnMount />
       <h2 className="fs-1">Sifonik İşleri Uygulaması</h2>
       <h3>Tecrübe</h3>
@@ -29,7 +29,7 @@ const Labor = () => {
       <NavLink className="nav-link fs-3 p-0 text-emin" to="/iletisim">
         İletişim Bilgilerimiz için buraya basın!
       </NavLink>
-    </div>
+    </main>
   );
 };
 

@@ -1,4 +1,4 @@
-﻿export default [
+let drainsdata = [
   {
     Code: "50PDSS035",
     ShortCode: "035",
@@ -855,3 +855,5 @@
       "Yeşil çatılar veya açık alanlarda,normal süzgeçlerin alt 50mm yüksekliğini kapatarak taşkan kullanımını sağlayan ekonomik alternatif",
   },
 ];
+
+export default drainsdata;

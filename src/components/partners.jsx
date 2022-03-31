@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import DrainPartnerPic from "../images/suzgecpartner.png";
 import PipePartnerPic from "../images/borupartner.png";
 import ScrollToTopOnMount from "./scrolltotoponmount";
 
 const Partners = () => {
   return (
-    <div className="container-fluid">
+    <main className="container-fluid">
       <ScrollToTopOnMount />
       <div className="row text-center">
         <div className="col-sm"></div>
@@ -97,7 +97,7 @@ const Partners = () => {
         </div>
         <div className="col-sm"></div>
       </div>
-    </div>
+    </main>
   );
 };
 

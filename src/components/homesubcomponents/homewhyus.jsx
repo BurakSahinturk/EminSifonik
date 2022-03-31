@@ -1,21 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
-import TerracePic from "../images/terrace.jpg";
+import Drain3Pic from "../../images/drain.jpg";
 
-const HomeWhySiphonic = () => {
+const HomeWhyUs = () => {
   return (
     <div className="overlay-container w-100 border border-white col-sm text-white">
       <img
-        src={TerracePic}
+        src={Drain3Pic}
         alt="Sifonik Yağmur Suyu Süzgeci"
         className="img-fluid w-100"
       />
-      <div className="overlay-text">Neden Sifonik?</div>
+      <div className="overlay-text">Neden Biz?</div>
       <div className="overlay">
-        <NavLink className="nav-link overlay" to="/nedensifonik"></NavLink>
+        <NavLink className="nav-link overlay" to="/nedenbiz"></NavLink>
       </div>
     </div>
   );
 };
 
-export default HomeWhySiphonic;
+export default HomeWhyUs;

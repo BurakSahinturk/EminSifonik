@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import ScrollToTopOnMount from "./scrolltotoponmount";
 import WhyUsDrains from "./whyuscomponents/drains";
 import WhyUsHydrotechnic from "./whyuscomponents/hydrotechnic";

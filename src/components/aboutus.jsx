@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import IstCarousel from "./carousels/istcarousel";
 import Pre2020Carousel from "./carousels/pre2020carousel";
 import ScrollToTopOnMount from "./scrolltotoponmount";
@@ -6,7 +6,7 @@ import HydrefsCarousel from "./carousels/hydrefscarousel";
 
 const AboutUs = () => {
   return (
-    <div className="container-fluid">
+    <main className="container-fluid">
       <ScrollToTopOnMount />
       <h2 className="text-center" style={{ fontSize: "6vh", margin: "4vh" }}>
         Kuruluşumuz
@@ -50,7 +50,7 @@ const AboutUs = () => {
         </div>
         <div className="col-lg-3 col-sm-1"></div>
       </div>
-    </div>
+    </main>
   );
 };
 

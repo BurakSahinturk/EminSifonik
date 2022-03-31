@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import ScrollToTopOnMount from "./scrolltotoponmount";
 import WhySiphonicAccordion from "./whysiphoniccomponents/whysiphonicaccordion";
 

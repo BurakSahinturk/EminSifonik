@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import CertificateUSA from "../../certificates/HydroMax_Certifcation_Letter_USA_2015.pdf";
 import CertificateUK from "../../certificates/HydroMax_Certifcation_Letter_Europe_2015.pdf";
 import { NavLink } from "react-router-dom";

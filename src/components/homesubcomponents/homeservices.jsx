@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
-import TerraceDrainPic from "../images/services/terrace_drain.jpg";
-import HydroTechnicPic from "../images/services/hydrotechnic.jpg";
-import UygulamaPic from "../images/services/uygulama.jpg";
+import TerraceDrainPic from "../../images/services/terrace_drain.jpg";
+import HydroTechnicPic from "../../images/services/hydrotechnic.jpg";
+import UygulamaPic from "../../images/services/uygulama.jpg";
 
 const HomeServices = () => {
   return (

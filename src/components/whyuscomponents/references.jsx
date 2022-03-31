@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Walmart1 from "../../images/hydrefs/Resim01.png";
 import Walmart2 from "../../images/hydrefs/TDSCN0805.JPG";
 import Walmart3 from "../../images/hydrefs/wal-mart_grand_haven,_mi_.jpg";

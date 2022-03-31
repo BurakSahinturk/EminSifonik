@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import DrainPic from "../images/stainless_steel_drain_c.png";
-import Drain2Pic from "../images/drain_in_water.png";
-import Drain3Pic from "../images/125_cropped.png";
+import React from "react";
+import DrainPic from "../../images/stainless_steel_drain_c.png";
+import Drain2Pic from "../../images/drain_in_water.png";
+import Drain3Pic from "../../images/125_cropped.png";
 import { NavLink } from "react-router-dom";
 
 const HomeDrains = () => {

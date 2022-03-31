@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import ScrollToTopOnMount from "./scrolltotoponmount";
 import AddIcon from "./svg/addicon.svg";
 import MailIcon from "./svg/mailicon.svg";
@@ -6,7 +6,7 @@ import PhoneIcon from "./svg/phoneicon.svg";
 
 const Contact = () => {
   return (
-    <div className="text-center m-3">
+    <main className="text-center m-3">
       <ScrollToTopOnMount />
       <h2 className="fs-1">Emin Sifonik İletişim Bilgileri</h2>
       <div className="container-fluid">
@@ -46,7 +46,7 @@ const Contact = () => {
           className="d-flex"
         ></iframe>
       </div>
-    </div>
+    </main>
   );
 };
 

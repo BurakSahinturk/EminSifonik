@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import PipeComparison from "../../images/pipecomparison.png";
 import { Accordion } from "react-bootstrap";
 
@@ -50,7 +50,7 @@ const WhySiphonicAccordion = () => {
               <iframe
                 src="https://www.youtube.com/embed/eIxzigwmxw0?rel=0"
                 height="230"
-                title="YouTube video player"
+                title="YouTube video player - Pine Leaves Drainage"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 className="d-flex py-2"
@@ -60,7 +60,7 @@ const WhySiphonicAccordion = () => {
             <div className="col-sm-3">
               <iframe
                 src="https://www.youtube.com/embed/2oXQ2P-ZWfk?rel=0"
-                title="YouTube video player"
+                title="YouTube video player - Sand filled Pipe Drainage"
                 frameBorder="0"
                 height="230"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -160,6 +160,7 @@ const WhySiphonicAccordion = () => {
               <iframe
                 src="https://docs.google.com/presentation/d/e/2PACX-1vSMWDSU0dv0cIO0Z9EmVhdr36XcPJce0K8Xl1LmjUkNByAa9xlaou3bunlzU4jGQA/embed?start=true&loop=false&delayms=5000"
                 frameBorder="0"
+                title="Google Slide Show"
                 allowFullScreen={true}
                 mozllowfullscreen="true"
                 webkitallowfullscreen="true"
